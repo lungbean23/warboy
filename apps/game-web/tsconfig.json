@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true,
+    "module": "ESNext"
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../../packages/world" },
+    { "path": "../../packages/overlays" },
+    { "path": "../../packages/chat" }
+  ]
+}

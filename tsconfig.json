@@ -1,0 +1,24 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "composite": true,
+    "declaration": true
+  },
+  "references": [
+    { "path": "packages/world" },
+    { "path": "packages/overlays" },
+    { "path": "packages/chat" },
+    { "path": "apps/game-server" },
+    { "path": "apps/game-web" }
+  ]
+}
+

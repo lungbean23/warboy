@@ -1,0 +1,22 @@
+# node & build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# compiled artifacts accidentally living next to TS (we'll clean later)
+apps/**/src/**/*.js
+apps/**/src/**/*.d.ts
+apps/**/src/**/*.js.map
+
+# env & logs
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editors / OS
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'   # matches your local 18.20.x
+          cache: 'npm'
+
+      - run: npm ci
+
+      # Build each workspace you used locally
+      - run: npm run -w @warboy/chat build
+      - run: npm run -w @warboy/net build
+      - run: npm run -w game-server build
+      - run: npm run -w game-web build

@@ -1,5 +1,5 @@
 // packages/world/src/aoi.ts
-import { CHUNK_SIZE } from './const';
+import { CHUNK_SIZE } from './const.js';
 
 export type ChunkCoord = { cx: number; cy: number };
 

@@ -1,7 +1,7 @@
 import { u8ToB64 } from '@warboy/world';
 import type { ChunkSnapshot } from '@warboy/world';
-import { genChunk } from './gen';
-import { getSnapshot, putSnapshot } from './storage';
+import { genChunk } from './gen.js';
+import { getSnapshot, putSnapshot } from './storage.js';
 
 const SEED = 0xC0FFEE;
 

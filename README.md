@@ -20,3 +20,24 @@ apps/admin-web
 apps/auth-api
 
 apps/towns-bot
+
+## Quick start (Fedora)
+
+```bash
+git clone <this-repo>
+cd warboy
+
+# install system deps + npm workspaces
+./workflow-tools/dev-all/bootstrap-fedora.sh
+
+# run everything (tmux + servers + HUD)
+./workflow-tools/dev-all/dev-all.sh up
+
+# view the app:
+# - game web: http://localhost:5175/
+# - HUD logs: http://localhost:5599/
+
+# status / stop
+./workflow-tools/dev-all/dev-all.sh status
+./workflow-tools/dev-all/dev-all.sh stop
+

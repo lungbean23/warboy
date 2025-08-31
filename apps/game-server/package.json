@@ -2,17 +2,17 @@
   "name": "game-server",
   "type": "module",
   "scripts": {
-    "dev": "tsx src/index.ts",
-    "start": "node dist/index.js",
-    "build": "tsc -p tsconfig.json"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
   },
   "dependencies": {
+    "@warboy/chat": "0.0.0",
+    "@warboy/net": "0.0.0",
+    "@warboy/overlays": "0.0.0",
+    "@warboy/world": "0.0.0",
     "nanoid": "^5.1.5",
-    "ws": "^8.18.3",
-    "@warboy/chat": "file:../../packages/chat",
-    "@warboy/net": "file:../../packages/net",
-    "@warboy/world": "file:../../packages/world",
-    "@warboy/overlays": "file:../../packages/overlays"
+    "ws": "^8.18.3"
   },
   "devDependencies": {
     "@types/ws": "^8.18.1",

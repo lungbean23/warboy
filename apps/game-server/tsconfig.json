@@ -1,15 +1,23 @@
 {
-  "extends": "../../tsconfig.json",
-  "compilerOptions": { "module": "ESNext",
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist",
-    "composite": true
+    "composite": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "strict": true,
+    "esModuleInterop": true
   },
   "include": ["src"],
   "references": [
-    { "path": "../../packages/world" },
+    { "path": "../../packages/chat" },
+    { "path": "../../packages/net" },
     { "path": "../../packages/overlays" },
-    { "path": "../../packages/chat" }
+    { "path": "../../packages/world" }
   ]
 }
 

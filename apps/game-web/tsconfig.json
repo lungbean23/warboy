@@ -5,12 +5,25 @@
     "rootDir": "src",
     "outDir": "dist",
     "composite": true,
-    "module": "ESNext"
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "references": [
-    { "path": "../../packages/world" },
-    { "path": "../../packages/overlays" },
-    { "path": "../../packages/chat" }
+    {
+      "path": "../../packages/world"
+    },
+    {
+      "path": "../../packages/overlays"
+    },
+    {
+      "path": "../../packages/chat"
+    }
   ]
 }

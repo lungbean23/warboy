@@ -1,5 +1,5 @@
 // packages/world/src/types.ts
-import type { TileId } from './const';
+import type { TileId } from './const.js';
 
 export type ChunkCoord = { cx: number; cy: number };
 

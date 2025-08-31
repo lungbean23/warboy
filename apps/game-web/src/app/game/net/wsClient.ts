@@ -1,28 +1,32 @@
 // apps/game-web/src/app/game/net/wsClient.ts
-type ClientHello = { t: 'hello'; name: string };
-type ClientIntent = { t: 'intent'; seq: number; dx: -1|0|1; dy: -1|0|1 };
+type ClientHello    = { t: 'hello'; name: string };
+type ClientIntent   = { t: 'intent'; seq: number; dx: -1|0|1; dy: -1|0|1 };
 type ClientChunkReq = { t:'chunkReq'; cx:number; cy:number };
-type ClientChat = { t:'chat'; text:string };
+type ClientChatSend = { t:'chat/send'; room?: string; text:string };
 
-type ServerWelcome = { t: 'welcome'; id: string; zoneId: string; time: number };
-type ServerSnapshot = { t:'snapshot'; time:number; players:Array<{id:string;x:number;y:number;name:string}> };
+type ServerWelcome   = { t: 'welcome'; id: string; zoneId: string; time: number };
+type ServerSnapshot  = { t:'snapshot'; time:number; players:Array<{id:string;x:number;y:number;name:string}> };
 type ServerChunkData = { t:'chunkData'; cx:number; cy:number; w:number; h:number; tilesB64:string };
-type ServerChat = { t:'chat'; text:string; from?: { id:string; name?:string } };
 
-type C2S = ClientHello | ClientIntent | ClientChunkReq | ClientChat;
-type S2C = ServerWelcome | ServerSnapshot | ServerChunkData | ServerChat;
+type ChatMsg = { id:string; room:string; from:{ id:string; name?:string }; text:string; ts:number };
+type ServerChatRecv    = { t:'chat/recv'; msg: ChatMsg };
+type ServerChatHistory = { t:'chat/history'; room:string; messages: ChatMsg[] };
+
+type C2S = ClientHello | ClientIntent | ClientChunkReq | ClientChatSend;
+type S2C = ServerWelcome | ServerSnapshot | ServerChunkData | ServerChatRecv | ServerChatHistory;
 
 export function connectWS(opts: {
   url: string; name: string;
   onWelcome?: (me: ServerWelcome) => void;
   onSnapshot?: (snap: ServerSnapshot) => void;
   onChunk?: (msg: ServerChunkData) => void;
-  onChat?: (msg: ServerChat) => void;
+  onChat?: (msg: ChatMsg) => void;
+  onChatHistory?: (room: string, msgs: ChatMsg[]) => void;
   onClose?: () => void;
 }) {
   const ws = new WebSocket(opts.url);
   let seq = 0;
-
+console.log('[wsClient] module loaded');
   ws.addEventListener('open', () => {
     const m: ClientHello = { t:'hello', name: opts.name };
     ws.send(JSON.stringify(m));
@@ -34,10 +38,11 @@ export function connectWS(opts: {
     if (!msg || typeof msg !== 'object') return;
 
     switch (msg.t) {
-      case 'welcome':   opts.onWelcome?.(msg); break;
-      case 'snapshot':  opts.onSnapshot?.(msg); break;
-      case 'chunkData': opts.onChunk?.(msg); break;
-      case 'chat':      opts.onChat?.(msg); break;
+      case 'welcome':      opts.onWelcome?.(msg); break;
+      case 'snapshot':     opts.onSnapshot?.(msg); break;
+      case 'chunkData':    opts.onChunk?.(msg); break;
+      case 'chat/recv':    opts.onChat?.(msg.msg); break;
+      case 'chat/history': opts.onChatHistory?.(msg.room, msg.messages || []); break;
     }
   });
 
@@ -52,11 +57,13 @@ export function connectWS(opts: {
       const m: ClientChunkReq = { t:'chunkReq', cx, cy };
       if (ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify(m));
     },
-    chat(text:string) {
-      const m: ClientChat = { t:'chat', text };
+    // NEW: chatSend -> chat/send
+    chatSend(text:string, room = 'global') {
+      const m: ClientChatSend = { t:'chat/send', room, text };
       if (ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify(m));
     },
-    close(){ try{ ws.close(); }catch{} }
+    close(){ try{ ws.close(); }catch{} },
+    socket: ws,
   };
 }
 

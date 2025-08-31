@@ -3,14 +3,15 @@ import { WebSocketServer, WebSocket } from 'ws';
 import { nanoid } from 'nanoid';
 import { applyTilePatches } from '@warboy/overlays';
 import type { OverlayEvent } from '@warboy/overlays';
-import { getChunkPatches, getChunkVersion, appendOverlay } from './world/overlays';
+import { getChunkPatches, getChunkVersion, appendOverlay } from './world/overlays.js';
 
 // network protocol
 import type { C2S, S2C } from '@warboy/net';
 
 // chat protocol + server-side chat handler
 import type { C2S as ChatC2S } from '@warboy/chat';
-import { handleChatMessage } from './chat/handler';
+import { handleChatMessage } from './chat/handler.js';
+import { recent } from './chat/store.js';
 
 // --- INLINE WORLDGEN (temporary) ---
 const CHUNK_SIZE = 32;
@@ -40,8 +41,23 @@ type Player = {
 const players = new Map<string, Player>();
 const WORLD_SEED = 0xC0FFEE;
 
-// lightweight admin HTTP for overlays
+// lightweight admin HTTP for overlays + chat history
 const httpServer = createServer((req, res) => {
+  if (req.method === 'GET' && req.url?.startsWith('/chat/recent')) {
+    const u = new URL(req.url, 'http://localhost');
+    const room = String(u.searchParams.get('room') || 'global');
+    const after = u.searchParams.get('after') ? Number(u.searchParams.get('after')) : undefined;
+    const limit = u.searchParams.get('limit') ? Number(u.searchParams.get('limit')) : 50;
+
+    recent(room, isNaN(limit) ? 50 : limit, isNaN(after as any) ? undefined : after)
+      .then((msgs) => {
+        res.writeHead(200, { 'content-type': 'application/json' });
+        res.end(JSON.stringify({ room, messages: msgs }));
+      })
+      .catch(() => { res.writeHead(500); res.end('error'); });
+    return;
+  }
+
   if (req.method === 'POST' && req.url === '/overlay/place') {
     let body = '';
     req.on('data', (c) => (body += c));
@@ -113,6 +129,16 @@ wss.on('connection', (sock) => {
 
       const welcome = { t: 'welcome', id, zoneId: 'zone-0', time: Date.now() } as S2C;
       sock.send(JSON.stringify(welcome));
+
+      // send recent chat (as normal chat/recv frames so client needs no new handler)
+      recent('global', 30).then((msgs) => {
+        for (const m of msgs) {
+          if (sock.readyState === WebSocket.OPEN) {
+            sock.send(JSON.stringify({ t: 'chat/recv', msg: m }));
+          }
+        }
+      }).catch(() => { /* ignore */ });
+
       return;
     }
 

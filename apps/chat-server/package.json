@@ -1,0 +1,23 @@
+{
+  "name": "@warboy/chat-server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7",
+    "ws": "^8.18.0",
+    "@warboy/chat": "0.0.0",
+    "@warboy/net": "0.0.0",
+    "@warboy/overlays": "0.0.0",
+    "@warboy/world": "0.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.15.7",
+    "typescript": "^5.6.3"
+  }
+}

@@ -2,7 +2,7 @@
 node_modules/
 dist/
 *.tsbuildinfo
-
+/data
 # compiled artifacts accidentally living next to TS (we'll clean later)
 apps/**/src/**/*.js
 apps/**/src/**/*.d.ts

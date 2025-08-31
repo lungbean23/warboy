@@ -2,50 +2,41 @@
 
 // ──────────────────────────────────────────────────────────────────────────────
 // UI SYSTEM (canvas HUD + input)
-// Good module seam: keep UI primitives (manager, widgets, panels) in /ui/*
 // ──────────────────────────────────────────────────────────────────────────────
 import { UIManager } from './ui/manager';
-import { ChatHud } from './ui/chat/chatHUD';
-import { createTextCapture } from './ui/input/textCapture';
-
-// ──────────────────────────────────────────────────────────────────────────────
-// REACT + GAME BOOTSTRAP
-// ──────────────────────────────────────────────────────────────────────────────
 import React, { useEffect, useRef, useState } from 'react';
+import { ChatPanel } from './chat/ChatPanel';
 
 // ──────────────────────────────────────────────────────────────────────────────
 // NETWORKING (WS client + message types)
-// Good module seam: /game/net/*
 // ──────────────────────────────────────────────────────────────────────────────
 import { connectWS } from './game/net/wsClient';
 
 // ──────────────────────────────────────────────────────────────────────────────
 // WORLD DATA / CACHING / COORD MATH
-// Good module seam: /game/world/* & @warboy/world
 // ──────────────────────────────────────────────────────────────────────────────
 import { ChunkCache } from './game/world/cache';
 import { CHUNK_SIZE, worldToChunk, localInChunk, edgePrefetch, directionalAOI, aoiRect } from '@warboy/world';
 
-
-
-
-
 // ──────────────────────────────────────────────────────────────────────────────
 // SPRITES / ANIMATION
-// Good module seam: /game/sprites/*
 // ──────────────────────────────────────────────────────────────────────────────
 import heroUrl from './game/assets/sprites/Alex_16x16.png';
 import { loadImage } from './game/sprites/loader';
 import { SpriteSheet } from './game/sprites/spriteSheet';
 import { Animator } from './game/sprites/anim';
 
-// shared, long‑lived chunk cache
+// Chat message shape (matches server)
+type ChatMsg = { id:string; room:string; from:{ id:string; name?:string }; text:string; ts:number };
+
+// shared, long-lived chunk cache
 const cache = new ChunkCache();
 
 export function App() {
   const [status, setStatus] = useState('disconnected');
   const [id, setId] = useState<string | null>(null);
   const [players, setPlayers] = useState<any[]>([]);
+  const [chatMsgs, setChatMsgs] = useState<ChatMsg[]>([]);
 
   // canvas / draw loop refs
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -64,16 +55,13 @@ export function App() {
   const heroRowRef = useRef(0);
   const lastDrawPosRef = useRef<{ tx: number; ty: number } | null>(null);
 
-  // ui system
+  // ui system (still used for canvas widgets/input routing)
   const uiRef = useRef<UIManager | null>(null);
-  const chatRef = useRef<ChatHud | null>(null);
 
   useEffect(() => { playersRef.current = players; }, [players]);
   useEffect(() => { idRef.current = id; }, [id]);
 
-  // ────────────────────────────────────────────────────────────────────────────
-  // ASSET PRELOAD (sprite sheet)
-  // ────────────────────────────────────────────────────────────────────────────
+  // ASSET PRELOAD
   useEffect(() => {
     let alive = true;
     (async () => {
@@ -86,9 +74,7 @@ export function App() {
     return () => { alive = false; };
   }, []);
 
-  // ────────────────────────────────────────────────────────────────────────────
-  // NETWORK CONNECT (WS) — module seam: isolate in /game/net
-  // ────────────────────────────────────────────────────────────────────────────
+  // NETWORK CONNECT (WS)
   useEffect(() => {
     setStatus('connecting');
     const name = `warboy-${Math.floor(Math.random() * 1000)}`;
@@ -99,13 +85,16 @@ export function App() {
       name,
 
       onChat: (m) => {
-        chatRef.current?.addLine(`${m.from?.name ?? m.from?.id ?? 'anon'}: ${m.text}`);
+        setChatMsgs((prev) => [...prev, m].slice(-200));
+      },
+
+      onChatHistory: (_room, msgs) => {
+        setChatMsgs(msgs.slice(-200));
       },
 
       onWelcome: (me) => {
         setId(me.id);
         setStatus('connected');
-        chatRef.current?.addLine(`system: connected as ${me.id}`);
 
         const { cx, cy } = worldToChunk(0, 0, CHUNK_SIZE);
 
@@ -127,7 +116,6 @@ export function App() {
       },
 
       onSnapshot: (snap) => {
-        // debug/telemetry: consider module seam in /telemetry
         console.log('[snapshot]', snap.players.map((p: any) => ({
           id: p.id, name: p.name, tx: p.tx, ty: p.ty, x: p.x, y: p.y
         })));
@@ -135,7 +123,6 @@ export function App() {
       },
 
       onChunk: (msg) => {
-        // WORLD MERGE / PATCH APPLY — keep this logic in /game/world
         console.log('[onChunk]', msg);
         if (msg?.t === 'chunkData') {
           cache.setFromSnap(msg);
@@ -144,41 +131,36 @@ export function App() {
 
       onClose: () => {
         setStatus('disconnected');
-        chatRef.current?.addLine('system: disconnected');
+        setChatMsgs((prev) => [...prev, { id: String(Date.now()), room:'global', from:{id:'system'}, text:'disconnected', ts:Date.now() }]);
       },
     });
 
     wsRef.current = ws;
 
-    // NOTE: movement keys are handled here; UI keys go through UIManager below
-   const onKeyDown = (e: KeyboardEvent) => {
-   const uiHandled = uiRef.current?.handleKeyDown(e) ?? false;
-   if (uiHandled) {
-     e.preventDefault();
-     return;
-   }
+    // movement keys (UI keys are handled below)
+    const onKeyDown = (e: KeyboardEvent) => {
+      const uiHandled = uiRef.current?.handleKeyDown(e) ?? false;
+      if (uiHandled) { e.preventDefault(); return; }
 
-   const k = e.key.toLowerCase();
-   const dx = k === 'arrowright' || k === 'd' ? 1 : k === 'arrowleft' || k === 'a' ? -1 : 0;
-   const dy = k === 'arrowdown' || k === 's' ? 1 : k === 'arrowup' || k === 'w' ? -1 : 0;
+      const k = e.key.toLowerCase();
+      const dx = k === 'arrowright' || k === 'd' ? 1 : k === 'arrowleft' || k === 'a' ? -1 : 0;
+      const dy = k === 'arrowdown' || k === 's' ? 1 : k === 'arrowup' || k === 'w' ? -1 : 0;
 
-   if (dx || dy) {
-     e.preventDefault();
-     wsRef.current?.intent(dx, dy);
-   }
-   }; 
-   window.addEventListener('keydown', onKeyDown);
+      if (dx || dy) {
+        e.preventDefault();
+        wsRef.current?.intent(dx, dy);
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
 
-   return () => {
-     window.removeEventListener('keydown', onKeyDown);
-     try { ws.close(); } catch {}
-     wsRef.current = null;
-   };
+    return () => {
+      window.removeEventListener('keydown', onKeyDown);
+      try { ws.close(); } catch {}
+      wsRef.current = null;
+    };
   }, []);
 
-  // ────────────────────────────────────────────────────────────────────────────
-  // AOI / PREFETCH SYSTEM — module seam: /game/systems/aoiPrefetch
-  // ────────────────────────────────────────────────────────────────────────────
+  // AOI / PREFETCH SYSTEM
   useEffect(() => {
     let lastCenter: { cx: number; cy: number } | null = null;
 
@@ -217,10 +199,7 @@ export function App() {
     return () => clearInterval(handle);
   }, []);
 
-  // ────────────────────────────────────────────────────────────────────────────
-  // CANVAS + RENDER LOOP — module seam: /game/render/*
-  // split world render vs. UI overlay draw
-  // ────────────────────────────────────────────────────────────────────────────
+  // CANVAS + RENDER LOOP
   useEffect(() => {
     const c = canvasRef.current;
     if (!c) return;
@@ -228,19 +207,9 @@ export function App() {
     if (!ctx) return;
     ctxRef.current = ctx;
 
-    // --- UI setup ---
-    // Good module seam: /ui (manager, panels)
+    // --- UI setup (still used for input routing) ---
     const ui = new UIManager();
     uiRef.current = ui;
-
- 
-
-    const chat = new ChatHud(
-      { x: 8, y: 8, w: Math.min(360, (c.clientWidth || 800) * 0.4), h: 180 },
-      (text) => wsRef.current?.chat?.(text)
-    );
-    chatRef.current = chat;
-    ui.add(chat);
 
     // --- input plumbing (pointer + wheel go to UI first) ---
     const toPoint = (e: PointerEvent | MouseEvent, target: HTMLCanvasElement) => {
@@ -261,13 +230,11 @@ export function App() {
       ui.dispatch({ t: 'pointerUp', p, id: e.pointerId });
     };
 
-    // non‑passive so preventDefault() works when UI consumes the scroll
     const onWheel = (e: WheelEvent) => {
       const handled = ui.dispatch({ t: 'wheel', dx: e.deltaX, dy: e.deltaY });
       if (handled) e.preventDefault();
     };
 
-    // Route keyboard through UI manager fallback (printables/Enter/Backspace/IME)
     const onKeyDown = (e: KeyboardEvent) => {
       const handled = ui.handleKeyDown(e);
       if (handled) e.preventDefault();
@@ -304,20 +271,15 @@ export function App() {
       ctx2.fillStyle = '#101010';
       ctx2.fillRect(0, 0, cssW, cssH);
 
-      // WORLD RENDER — module seam: put into /game/render/world
+      // WORLD RENDER
       const curPlayers = playersRef.current;
       const meId = idRef.current;
       const me = curPlayers.find((p) => p.id === meId);
       const tx = me?.tx ?? 0;
       const ty = me?.ty ?? 0;
       const TILE_PIX = 8;
-      const tileColor: Record<number, string> = {
-        0: '#2050ff', // water
-        1: '#2aa745', // grass
-        2: '#999999', // rock
-      };
+      const tileColor: Record<number, string> = { 0:'#2050ff', 1:'#2aa745', 2:'#999999' };
 
-      // draw chunks around player
       const center = worldToChunk(tx, ty, CHUNK_SIZE);
       for (let gy = -1; gy <= 1; gy++) {
         for (let gx = -1; gx <= 1; gx++) {
@@ -341,7 +303,6 @@ export function App() {
               ctx2.fillRect(sx, sy, TILE_PIX, TILE_PIX);
             }
           }
-          // optional chunk border (debug)
           ctx2.strokeStyle = '#222';
           const topLeftX = Math.floor(cssW / 2 + (ccx * CHUNK_SIZE - tx) * TILE_PIX);
           const topLeftY = Math.floor(cssH / 2 + (ccy * CHUNK_SIZE - ty) * TILE_PIX);
@@ -349,7 +310,7 @@ export function App() {
         }
       }
 
-      // OTHER PLAYERS — could be a separate layer/system
+      // OTHER PLAYERS
       const others = curPlayers.filter((p) => p.id !== meId);
       for (const p of others) {
         const ox = p.tx ?? 0;
@@ -372,13 +333,13 @@ export function App() {
         ctx2.fillRect(sxUI - 2, syUI - 2, 4, 4);
       }
 
-      // DEBUG HUD — could move to /ui/panels/debugHud
+      // DEBUG HUD
       ctx2.fillStyle = '#fff';
       ctx2.font = '12px monospace';
       ctx2.textAlign = 'left';
       ctx2.fillText(`players:${curPlayers.length} me:${meId?.slice(0, 4) ?? '—'} tx:${tx} ty:${ty}`, 8, 16);
 
-      // HERO SPRITE — module seam: /game/render/hero
+      // HERO SPRITE ANIM
       const sheet = heroSheetRef.current;
       const anim = heroAnimRef.current;
       if (sheet && anim) {
@@ -387,8 +348,7 @@ export function App() {
         const dy = prev ? Math.sign(ty - prev.ty) : 0;
         lastDrawPosRef.current = { tx, ty };
         let row = heroRowRef.current;
-        if (Math.abs(dx) > Math.abs(dy)) row = dx > 0 ? 1 : 3; // right/left
-        else if (Math.abs(dy) > 0) row = dy < 0 ? 2 : 0; // up/down
+        if (Math.abs(dx) > Math.abs(dy)) row = dx > 0 ? 1 : 3; else if (Math.abs(dy) > 0) row = dy < 0 ? 2 : 0;
         if (row !== heroRowRef.current) {
           heroRowRef.current = row;
           const base = row * sheet.columns;
@@ -401,7 +361,7 @@ export function App() {
         sheet.drawFrame(ctx2, frame, drawX, drawY, scale);
       }
 
-      // UI OVERLAY — all canvas widgets (chat, etc)
+      // UI overlay (no canvas chat anymore, but input routing stays)
       uiRef.current?.draw(ctx2);
 
       rafRef.current = requestAnimationFrame(draw);
@@ -422,7 +382,6 @@ export function App() {
 
       uiRef.current?.destroy();
       uiRef.current = null;
-      chatRef.current = null;
 
       rafRef.current = null;
       ctxRef.current = null;
@@ -433,9 +392,26 @@ export function App() {
     <div style={{ color: '#ddd', fontFamily: 'system-ui', padding: 8 }}>
       <div>status: {status} {id ? `| id: ${id}` : ''}</div>
 
-      {/* Canvas host div — good mount point for hidden textCapture */}
-      <div style={{ border: '1px solid #333', marginTop: 8, width: '100%', maxWidth: 960, aspectRatio: '16 / 9' }}>
+      {/* Canvas host div with relative positioning to overlay DOM chat */}
+      <div style={{ border: '1px solid #333', marginTop: 8, width: '100%', maxWidth: 960, aspectRatio: '16 / 9', position: 'relative' }}>
         <canvas ref={canvasRef} style={{ width: '100%', height: '100%', display: 'block' }}/>
+       <ChatPanel
+  messages={chatMsgs}
+  onSend={(t) => {
+    const wsApi = wsRef.current;
+    console.log('[UI] chat send clicked', { t, hasApi: !!wsApi, hasChatSend: !!wsApi?.chatSend, rs: wsApi?.socket?.readyState });
+
+    if (wsApi?.chatSend) {
+      wsApi.chatSend(t, 'global');
+    } else if (wsApi?.socket?.readyState === WebSocket.OPEN) {
+      // Fallback (shouldn’t happen once clean)
+      wsApi.socket.send(JSON.stringify({ t: 'chat/send', room: 'global', text: t }));
+    } else {
+      console.warn('[UI] no ws or not open');
+    }
+  }}
+/>
+
       </div>
 
       <div style={{ marginTop: 8 }}>WASD / Arrow keys move your square.</div>
@@ -444,4 +420,3 @@ export function App() {
 }
 
 export default App;
-

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@warboy/chat": ["packages/chat/src"],
+      "@warboy/net": ["packages/net/src"],
+      "@warboy/overlays": ["packages/overlays/src"],
+      "@warboy/world": ["packages/world/src"]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Warboy HUD</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; font:14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:#0b0b0b; color:#e6e6e6; }
+  header.top { position:sticky; top:0; z-index:10; padding:10px 16px; background:#111; border-bottom:1px solid #222; display:flex; gap:12px; align-items:center; }
+  header.top h1 { margin:0; font-size:16px; font-weight:600; }
+  header.top .status { margin-left:auto; opacity:.7; font-size:12px; }
+  .grid { display:flex; flex-direction:column; gap:8px; padding:10px; }
+  .pane { background:#0f1012; border:1px solid #222; border-radius:8px; overflow:hidden; }
+  .pane header { display:flex; gap:8px; align-items:center; padding:8px 10px; background:#141519; border-bottom:1px solid #1d2230; }
+  .title { font-weight:600; }
+  .controls { margin-left:auto; display:flex; gap:8px; }
+  a, button { background:#1e2533; color:#dce2f2; border:1px solid #2b3547; border-radius:6px; padding:4px 8px; cursor:pointer; font-size:12px; text-decoration:none; }
+  a:hover, button:hover { background:#253049; }
+  pre { margin:0; padding:10px; max-height:260px; overflow:auto; white-space:pre-wrap; word-break:break-word; background:#0b0c10; }
+</style>
+
+<header class="top">
+  <h1>Warboy – Live Logs (simple)</h1>
+  <div class="status" id="status">loading…</div>
+  <div class="controls">
+    <button id="kill">Kill HUD</button>
+  </div>
+</header>
+
+<div class="grid" id="grid"></div>
+
+<script>
+const statusEl = document.getElementById('status');
+const grid = document.getElementById('grid');
+const killBtn = document.getElementById('kill');
+
+async function loadOnce() {
+  try {
+    const labels = await (await fetch('/labels')).json();
+    statusEl.textContent = `${labels.length} streams`;
+    grid.innerHTML = '';
+    for (const {label} of labels) {
+      const wrap = document.createElement('div');
+      wrap.className = 'pane';
+      wrap.innerHTML = `
+        <header>
+          <span class="title">${label}</span>
+          <div class="controls">
+            <a href="/file/${encodeURIComponent(label)}" target="_blank">Open full</a>
+          </div>
+        </header>
+        <pre>loading…</pre>`;
+      grid.appendChild(wrap);
+
+      // Fetch last 200 lines
+      try {
+        const text = await (await fetch(`/tail/${encodeURIComponent(label)}/200`)).text();
+        wrap.querySelector('pre').textContent = text || '(empty)';
+      } catch (e) {
+        wrap.querySelector('pre').textContent = '(failed to load)';
+      }
+    }
+  } catch (e) {
+    console.error(e);
+    statusEl.textContent = 'error loading';
+  }
+}
+
+killBtn.onclick = async () => {
+  try { await fetch('/shutdown', { method: 'POST' }); } catch {}
+  setTimeout(() => location.reload(), 300);
+};
+
+loadOnce();
+setInterval(loadOnce, 5000); // refresh every 5s
+</script>
+

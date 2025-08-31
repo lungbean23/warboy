@@ -3,6 +3,7 @@ set -euo pipefail
 NAME="${1:-warboy}"
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+[ -f "$ROOT_DIR/.env" ] && set -a && . "$ROOT_DIR/.env" && set +a
 cd "$ROOT_DIR"
 
 # Keep these in sync with web_hud.sh
@@ -26,6 +27,7 @@ pkill -f "tsc -b -w" 2>/dev/null || true
 # Kill Web HUD (PID file + fallback)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd "$SCRIPT_DIR/../../.." && pwd)"
+[ -f "$ROOT_DIR/.env" ] && set -a && . "$ROOT_DIR/.env" && set +a
 LOG_DIR="$ROOT_DIR/workflow-tools/dev-all/logs"
 PID_FILE="$LOG_DIR/.web_hud.pid"
 if [ -f "$PID_FILE" ]; then

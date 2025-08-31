@@ -7,6 +7,7 @@ SESSION_TAG="${2:-${NAME}-$(date +%Y%m%d-%H%M%S)}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT_DIR="$(cd "$SCRIPT_DIR/../../.." && pwd)"
+[ -f "$ROOT_DIR/.env" ] && set -a && . "$ROOT_DIR/.env" && set +a
 cd "$ROOT_DIR"
 LOG_KEEP="${LOG_KEEP:-2}"
 LOG_DIR="$ROOT_DIR/workflow-tools/dev-all/logs"

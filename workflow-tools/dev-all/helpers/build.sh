@@ -5,6 +5,7 @@ set -euo pipefail
 NAME="${1:-warboy}"
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+[ -f "$ROOT_DIR/.env" ] && set -a && . "$ROOT_DIR/.env" && set +a
 cd "$ROOT_DIR"
 
 # Order matters if there are deps between packages

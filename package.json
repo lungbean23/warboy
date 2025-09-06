@@ -32,7 +32,7 @@
     "bundlr:tree": "npm run digestr:tree",
     "backup:restore:latest": "LATEST=$(ls -1t $HOME/backups/warboy/warboy-*.tar.gz | head -1) && DEST=$HOME/Desktop/warboy-restore-latest && mkdir -p \"$DEST\" && tar -xzf \"$LATEST\" -C \"$DEST\" && echo Restored to: \"$DEST/$(basename \"$LATEST\" .tar.gz)\"",
     "gitready": "bash --noprofile --norc workflow-tools/git/gitready.sh",
-    "gitready:commit": "bash --noprofile --norc workflow-tools/git/gitready.sh --message \"chore: repo hygiene (README, bundler, backups)\""
+    "gitready:commit": "bash --noprofile --norc workflow-tools/git/gitready.sh --regen --message \"docs: modern README; chore: digestr+tree; ops: backup helpers\""
   },
   "devDependencies": {
     "@types/react": "^19.1.9",

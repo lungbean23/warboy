@@ -1,11 +1,13 @@
 {
   "name": "warboy",
   "private": true,
+  "packageManager": "npm@10.9.2",
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
+    "dev:data": "npm --workspace apps/data-api run dev",
     "dev:server": "npm --workspace apps/game-server run dev",
     "dev:web": "npm --workspace apps/game-web run dev",
     "bootstrap:ws": "bash workflow-tools/bootstrap-workspaces.sh",
@@ -15,8 +17,22 @@
     "up": "bash workflow-tools/dev-all/dev-all.sh up",
     "stop": "bash workflow-tools/dev-all/dev-all.sh stop",
     "status": "bash workflow-tools/dev-all/dev-all.sh status",
-    "hud": "HUD_MODE=web bash workflow-tools/dev-all/helpers/hud.sh"
-  
+    "hud": "HUD_MODE=web bash workflow-tools/dev-all/helpers/hud.sh",
+    "backup": "workflow-tools/backupr/backup.sh --wizard",
+    "backup:quick": "ROOT_DIR=$(pwd) BACKUP_ROOT=\"$HOME/backups/warboy\" REPO_NAME=\"warboy\" workflow-tools/backupr/backup.sh",
+    "backup:dry": "DRY_RUN=1 workflow-tools/backupr/backup.sh --wizard",
+    "digestr": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
+    "digestr:fast": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && MAX_LINES=800 HEAD_TAKE=300 TAIL_TAKE=300 ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\" -X \"**/dist,**/.turbo,**/.cache,**/node_modules/**\"'",
+    "digestr:full": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && MAX_LINES=2000 HEAD_TAKE=700 TAIL_TAKE=700 ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
+    "digestr:no-git": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh --no-git -o \"$ROOT/PROJECT_BUNDLE.md\"'",
+    "digestr:when": "stat -c '%y' PROJECT_BUNDLE.md",
+    "digestr:tree": "bash --noprofile --norc -lc 'ROOT=$(pwd); npm run -s digestr && printf \"\\n# Repo Tree\\n\\n\" >> \"$ROOT/PROJECT_BUNDLE.md\" && printf '\\''```text\\n'\\'' >> \"$ROOT/PROJECT_BUNDLE.md\" && tree -L 3 -a --dirsfirst >> \"$ROOT/PROJECT_BUNDLE.md\" && printf '\\''\\n```\\n'\\'' >> \"$ROOT/PROJECT_BUNDLE.md\"'",
+    "digestr:check": "bash -lc 'B=$(stat -c %Y PROJECT_BUNDLE.md 2>/dev/null || echo 0); C=$(git log -1 --format=%ct 2>/dev/null || echo 0); if [ \"$B\" -lt \"$C\" ]; then echo \"STALE: bundle older than latest commit\"; exit 1; else echo \"FRESH: bundle is up-to-date vs latest commit\"; fi'",
+    "bundlr": "npm run digestr",
+    "bundlr:tree": "npm run digestr:tree",
+    "backup:restore:latest": "LATEST=$(ls -1t $HOME/backups/warboy/warboy-*.tar.gz | head -1) && DEST=$HOME/Desktop/warboy-restore-latest && mkdir -p \"$DEST\" && tar -xzf \"$LATEST\" -C \"$DEST\" && echo Restored to: \"$DEST/$(basename \"$LATEST\" .tar.gz)\"",
+    "gitready": "bash --noprofile --norc workflow-tools/git/gitready.sh",
+    "gitready:commit": "bash --noprofile --norc workflow-tools/git/gitready.sh --message \"chore: repo hygiene (README, bundler, backups)\""
   },
   "devDependencies": {
     "@types/react": "^19.1.9",
@@ -24,6 +40,7 @@
     "@vitejs/plugin-react": "^4.7.0",
     "concurrently": "^9.2.1",
     "tsx": "^4.20.5",
+    "turbo": "^2.5.6",
     "typescript": "^5.9.2",
     "vite": "^6.3.5"
   },

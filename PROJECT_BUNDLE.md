@@ -1,6 +1,6 @@
 # Project Bundle
 
-Generated: 2025-09-06T16:51:08Z
+Generated: 2025-09-06T17:02:46Z
 
 _This is a compact, AI-friendly snapshot of the project._
 _Text files with known extensions include content; others are stubs._
@@ -315,6 +315,7 @@ _Git URLs appear when the repo/remote is detected._
 - [workflow-tools/dev-all/logs/packages-watch.warboy-20250906-102058.log](#workflow-tools-dev-all-logs-packages-watch-warboy-20250906-102058-log)
 - [workflow-tools/dev-tmux.sh](#workflow-tools-dev-tmux-sh)
 - [workflow-tools/devserver-wizard.sh](#workflow-tools-devserver-wizard-sh)
+- [workflow-tools/git/README.md](#workflow-tools-git-readme-md)
 - [workflow-tools/git/gitready.sh](#workflow-tools-git-gitready-sh)
 - [workflow-tools/proj_digestr/helpers/args.sh](#workflow-tools-proj-digestr-helpers-args-sh)
 - [workflow-tools/proj_digestr/helpers/config.sh](#workflow-tools-proj-digestr-helpers-config-sh)
@@ -343,7 +344,7 @@ _Git URLs appear when the repo/remote is detected._
 <a id="env-example"></a>
 ===== FILE START =====
 Path: .env.example
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/.env.example
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/.env.example
 Bytes: 194  Lines: 12  Modified: 2025-08-31T23:32:07Z
 SHA256: 43770687393d0ad805d6625866be7967d360be9de904359aa5e34420660af016   Language: dotenv   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -358,7 +359,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="gitattributes"></a>
 ===== FILE START =====
 Path: .gitattributes
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/.gitattributes
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/.gitattributes
 Bytes: 133  Lines: 9  Modified: 2025-08-30T13:53:41Z
 SHA256: 833f9164c3d1f21b0467ccdd68cecbad9a6292b98b5608c8b9eb33d13c4f7556   Language: plain   Role: source
 Summary: 
@@ -382,7 +383,7 @@ Summary:
 <a id="github-workflows-ci-yml"></a>
 ===== FILE START =====
 Path: .github/workflows/ci.yml
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/.github/workflows/ci.yml
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/.github/workflows/ci.yml
 Bytes: 609  Lines: 30  Modified: 2025-08-30T14:00:38Z
 SHA256: 151bfe8558b39a33a5041b80ef1262f510fccebe06f58c5e38981eba49738236   Language: yaml   Role: source
 Summary: 
@@ -427,7 +428,7 @@ jobs:
 <a id="gitignore"></a>
 ===== FILE START =====
 Path: .gitignore
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/.gitignore
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/.gitignore
 Bytes: 454  Lines: 33  Modified: 2025-09-01T01:06:42Z
 SHA256: a47e79461671b0ebd4cfdb28e39c697c70e3cbaf85c7eb4d0be1f18fc1654f1f   Language: plain   Role: source
 Summary: 
@@ -475,7 +476,7 @@ tsconfig.tsbuildinfo
 <a id="npmrc"></a>
 ===== FILE START =====
 Path: .npmrc
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/.npmrc
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/.npmrc
 Bytes: 31  Lines: 1  Modified: 2025-08-30T22:07:42Z
 SHA256: db76d9463c8faee134cfe37df5d143ab426b65a9ba507251073dd7424c92af7b   Language: plain   Role: source
 Summary: 
@@ -491,7 +492,7 @@ prefer-workspace-packages=true
 <a id="beta-md"></a>
 ===== FILE START =====
 Path: BETA.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/BETA.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/BETA.md
 Bytes: 235447  Lines: 7538  Modified: 2025-08-15T04:21:02Z
 SHA256: 6b6302a767843716bbad94d85e54d5d74f80f313416af1949ec2c664f894bf97   Language: md   Role: source
 Summary: Truncated preview; file exceeds 999 lines.
@@ -1177,7 +1178,7 @@ echo "✅ Project bundle saved to $OUT"
 <a id="readme-md"></a>
 ===== FILE START =====
 Path: README.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/README.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/README.md
 Bytes: 2991  Lines: 123  Modified: 2025-09-06T15:44:48Z
 SHA256: f66db8c54878a4b86747130b4c1b4af80d4cc9d6b5977ba902f5ecbcb57fc10a   Language: md   Role: source
 Summary: 
@@ -1315,7 +1316,7 @@ If a port is stuck, `npm run up` will attempt to free common ports before launch
 <a id="apps-admin-api-package-json"></a>
 ===== FILE START =====
 Path: apps/admin-api/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-api/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-api/package.json
 Bytes: 244  Lines: 11  Modified: 2025-08-30T23:03:38Z
 SHA256: ae0754c3392d79d8520307a2a432226310b641dbac33c45040165601824d1f98   Language: json   Role: source
 Summary: 
@@ -1341,7 +1342,7 @@ Summary:
 <a id="apps-admin-api-src-index-js"></a>
 ===== FILE START =====
 Path: apps/admin-api/src/index.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-api/src/index.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-api/src/index.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1357,7 +1358,7 @@ Summary:
 <a id="apps-admin-api-src-index-ts"></a>
 ===== FILE START =====
 Path: apps/admin-api/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-api/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-api/src/index.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1372,7 +1373,7 @@ Summary:
 <a id="apps-admin-api-tsconfig-json"></a>
 ===== FILE START =====
 Path: apps/admin-api/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-api/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-api/tsconfig.json
 Bytes: 272  Lines: 14  Modified: 2025-08-30T23:03:38Z
 SHA256: d0874e7d67871cd43d64a46d6e483438f335c0635ada991c1ecb45c43e6eba41   Language: json   Role: source
 Summary: 
@@ -1401,7 +1402,7 @@ Summary:
 <a id="apps-admin-web-env-local"></a>
 ===== FILE START =====
 Path: apps/admin-web/.env.local
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/.env.local
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/.env.local
 Bytes: 135  Lines: 6  Modified: 2025-08-28T23:12:45Z
 SHA256: 23f133ec0090c7c45cba0298af21aff6a2c9288e6e1a31fa86f8ff3ccda92631   Language: dotenv   Role: source
 Summary: 
@@ -1422,7 +1423,7 @@ VITE_HMR_PORT=5175
 <a id="apps-admin-web-index-html"></a>
 ===== FILE START =====
 Path: apps/admin-web/index.html
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/index.html
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/index.html
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: html   Role: source
 Summary: 
@@ -1437,7 +1438,7 @@ Summary:
 <a id="apps-admin-web-package-json"></a>
 ===== FILE START =====
 Path: apps/admin-web/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/package.json
 Bytes: 244  Lines: 11  Modified: 2025-08-30T23:03:38Z
 SHA256: 52c0c3cab8f7b846d891598e1abdbdb1e309832650872189038c18aad12a3a00   Language: json   Role: source
 Summary: 
@@ -1463,7 +1464,7 @@ Summary:
 <a id="apps-admin-web-src-app-js"></a>
 ===== FILE START =====
 Path: apps/admin-web/src/App.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/src/App.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/src/App.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1479,7 +1480,7 @@ Summary:
 <a id="apps-admin-web-src-app-tsx"></a>
 ===== FILE START =====
 Path: apps/admin-web/src/App.tsx
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/src/App.tsx
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/src/App.tsx
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: tsx   Role: source
 Summary: 
@@ -1494,7 +1495,7 @@ Summary:
 <a id="apps-admin-web-src-main-js"></a>
 ===== FILE START =====
 Path: apps/admin-web/src/main.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/src/main.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/src/main.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1510,7 +1511,7 @@ Summary:
 <a id="apps-admin-web-src-main-tsx"></a>
 ===== FILE START =====
 Path: apps/admin-web/src/main.tsx
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/src/main.tsx
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/src/main.tsx
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: tsx   Role: source
 Summary: 
@@ -1525,7 +1526,7 @@ Summary:
 <a id="apps-admin-web-tsconfig-json"></a>
 ===== FILE START =====
 Path: apps/admin-web/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/tsconfig.json
 Bytes: 272  Lines: 14  Modified: 2025-08-30T23:03:38Z
 SHA256: d0874e7d67871cd43d64a46d6e483438f335c0635ada991c1ecb45c43e6eba41   Language: json   Role: source
 Summary: 
@@ -1554,7 +1555,7 @@ Summary:
 <a id="apps-admin-web-vite-config-js"></a>
 ===== FILE START =====
 Path: apps/admin-web/vite.config.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/vite.config.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/vite.config.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1570,7 +1571,7 @@ Summary:
 <a id="apps-admin-web-vite-config-ts"></a>
 ===== FILE START =====
 Path: apps/admin-web/vite.config.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/admin-web/vite.config.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/admin-web/vite.config.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1585,7 +1586,7 @@ Summary:
 <a id="apps-auth-api-src-routes-login-js"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/routes/login.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/routes/login.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/routes/login.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1601,7 +1602,7 @@ Summary:
 <a id="apps-auth-api-src-routes-login-ts"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/routes/login.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/routes/login.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/routes/login.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1616,7 +1617,7 @@ Summary:
 <a id="apps-auth-api-src-routes-nonce-js"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/routes/nonce.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/routes/nonce.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/routes/nonce.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1632,7 +1633,7 @@ Summary:
 <a id="apps-auth-api-src-routes-nonce-ts"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/routes/nonce.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/routes/nonce.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/routes/nonce.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1647,7 +1648,7 @@ Summary:
 <a id="apps-auth-api-src-routes-siwe-js"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/routes/siwe.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/routes/siwe.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/routes/siwe.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1663,7 +1664,7 @@ Summary:
 <a id="apps-auth-api-src-routes-siwe-ts"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/routes/siwe.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/routes/siwe.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/routes/siwe.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1678,7 +1679,7 @@ Summary:
 <a id="apps-auth-api-src-server-js"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/server.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/server.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/server.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1694,7 +1695,7 @@ Summary:
 <a id="apps-auth-api-src-server-ts"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/server.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/server.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/server.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1709,7 +1710,7 @@ Summary:
 <a id="apps-auth-api-src-services-jwt-js"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/services/jwt.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/services/jwt.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/services/jwt.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1725,7 +1726,7 @@ Summary:
 <a id="apps-auth-api-src-services-jwt-ts"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/services/jwt.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/services/jwt.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/services/jwt.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1740,7 +1741,7 @@ Summary:
 <a id="apps-auth-api-src-services-signer-js"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/services/signer.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/services/signer.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/services/signer.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1756,7 +1757,7 @@ Summary:
 <a id="apps-auth-api-src-services-signer-ts"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/services/signer.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/services/signer.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/services/signer.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1771,7 +1772,7 @@ Summary:
 <a id="apps-auth-api-src-store-nonces-js"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/store/nonces.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/store/nonces.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/store/nonces.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -1787,7 +1788,7 @@ Summary:
 <a id="apps-auth-api-src-store-nonces-ts"></a>
 ===== FILE START =====
 Path: apps/auth-api/src/store/nonces.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/auth-api/src/store/nonces.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/auth-api/src/store/nonces.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -1802,7 +1803,7 @@ Summary:
 <a id="apps-chat-server-env"></a>
 ===== FILE START =====
 Path: apps/chat-server/.env
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/.env
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/.env
 Bytes: 328  Lines: 15  Modified: 2025-08-30T19:45:13Z
 SHA256: 83cb5f5c7be75ff07ad2fde9b42ee80d2bf09fbed475efb28ee254771f3cb8d9   Language: dotenv   Role: source
 Summary: 
@@ -1832,7 +1833,7 @@ CHAT_RATE_LIMIT_WINDOW_MS=10000
 <a id="apps-chat-server-env-example"></a>
 ===== FILE START =====
 Path: apps/chat-server/.env.example
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/.env.example
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/.env.example
 Bytes: 328  Lines: 15  Modified: 2025-08-30T19:41:22Z
 SHA256: 83cb5f5c7be75ff07ad2fde9b42ee80d2bf09fbed475efb28ee254771f3cb8d9   Language: dotenv   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -1847,7 +1848,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-chat-server-gitignore"></a>
 ===== FILE START =====
 Path: apps/chat-server/.gitignore
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/.gitignore
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/.gitignore
 Bytes: 31  Lines: 4  Modified: 2025-08-30T19:41:08Z
 SHA256: 1fa41a7ff9630c911f18c372a3553eb0d847e2cc47ac540b6304e03439841b41   Language: plain   Role: source
 Summary: 
@@ -1866,7 +1867,7 @@ data/
 <a id="apps-chat-server-readme-md"></a>
 ===== FILE START =====
 Path: apps/chat-server/README.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/README.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/README.md
 Bytes: 736  Lines: 36  Modified: 2025-08-30T19:42:00Z
 SHA256: a31de2e51267ec2aa499364f71f8b4727de1c6137512b7a98df5ec816d253a16   Language: md   Role: source
 Summary: 
@@ -1917,7 +1918,7 @@ CHAT_RATE_LIMIT_WINDOW_MS (default 10000)
 <a id="apps-chat-server-data-chat-dev-ndjson"></a>
 ===== FILE START =====
 Path: apps/chat-server/data/chat/dev.ndjson
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/data/chat/dev.ndjson
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/data/chat/dev.ndjson
 Bytes: 137  Lines: 1  Modified: 2025-08-30T19:59:04Z
 SHA256: a09268ab906ea2c03b1d321f941e6832279afcf4fb45ea4d28467bdaed07f066   Language: json   Role: source
 Summary: 
@@ -1933,7 +1934,7 @@ Summary:
 <a id="apps-chat-server-data-chat-global-ndjson"></a>
 ===== FILE START =====
 Path: apps/chat-server/data/chat/global.ndjson
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/data/chat/global.ndjson
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/data/chat/global.ndjson
 Bytes: 1673  Lines: 12  Modified: 2025-08-30T20:00:18Z
 SHA256: e28073f238bfdae5efaa71c182b32f97779fb81ae913963cd4dcb708c024d82c   Language: json   Role: source
 Summary: 
@@ -1960,7 +1961,7 @@ Summary:
 <a id="apps-chat-server-package-json"></a>
 ===== FILE START =====
 Path: apps/chat-server/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/package.json
 Bytes: 490  Lines: 22  Modified: 2025-08-30T23:03:38Z
 SHA256: 71a0d5d0a5acc5680a533137502329365ce702cd8d275af0114eb530bb6b9690   Language: json   Role: source
 Summary: 
@@ -1997,7 +1998,7 @@ Summary:
 <a id="apps-chat-server-src-config-ts"></a>
 ===== FILE START =====
 Path: apps/chat-server/src/config.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/src/config.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/src/config.ts
 Bytes: 434  Lines: 12  Modified: 2025-08-30T19:42:27Z
 SHA256: 88f7c0936aa7693244e180fdcb54a51f0cf0d334f1b8c4c4b9d773e1a7cf2330   Language: typescript   Role: source
 Summary: 
@@ -2024,7 +2025,7 @@ windowMs: Number(process.env.CHAT_RATE_LIMIT_WINDOW_MS ?? 10000)
 <a id="apps-chat-server-src-index-ts"></a>
 ===== FILE START =====
 Path: apps/chat-server/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/src/index.ts
 Bytes: 4201  Lines: 156  Modified: 2025-08-30T19:51:43Z
 SHA256: 9fd009e1a3395ec594ff16696c05125895e87067cd77ab7b48be23c172a2ffe6   Language: typescript   Role: source
 Summary: 
@@ -2195,7 +2196,7 @@ process.on("SIGTERM", () => { clearInterval(iv); http.close(() => process.exit(0
 <a id="apps-chat-server-src-logger-ts"></a>
 ===== FILE START =====
 Path: apps/chat-server/src/logger.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/src/logger.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/src/logger.ts
 Bytes: 244  Lines: 4  Modified: 2025-08-30T19:42:41Z
 SHA256: c978d51967d064f45e49afda39f2e792248eba85a3d2ebe7a882a41246fe9003   Language: typescript   Role: source
 Summary: 
@@ -2214,7 +2215,7 @@ export const error = (...a: any[]) => console.error(stamp(), ...a);
 <a id="apps-chat-server-src-store-file-ts"></a>
 ===== FILE START =====
 Path: apps/chat-server/src/store/file.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/src/store/file.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/src/store/file.ts
 Bytes: 1200  Lines: 38  Modified: 2025-08-30T19:51:16Z
 SHA256: 599eea2b845a5952972234a94042a254db16cf93537b1e25715e218f26927f6b   Language: typescript   Role: source
 Summary: 
@@ -2267,7 +2268,7 @@ export class FileStore implements ChatStore {
 <a id="apps-chat-server-src-store-memory-ts"></a>
 ===== FILE START =====
 Path: apps/chat-server/src/store/memory.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/src/store/memory.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/src/store/memory.ts
 Bytes: 446  Lines: 15  Modified: 2025-08-30T19:51:27Z
 SHA256: 0b5b438d4073acd0744213544ab69e027685d2aa8a956cbb2c9c442e5708ad8a   Language: typescript   Role: source
 Summary: 
@@ -2297,7 +2298,7 @@ export class MemoryStore implements ChatStore {
 <a id="apps-chat-server-src-types-ts"></a>
 ===== FILE START =====
 Path: apps/chat-server/src/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/src/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/src/types.ts
 Bytes: 247  Lines: 11  Modified: 2025-08-30T19:51:02Z
 SHA256: ad824a4674825a1f022492759d5a3845623e5111a5e1e51248530bf0b716c330   Language: typescript   Role: source
 Summary: 
@@ -2323,7 +2324,7 @@ export type Wire =
 <a id="apps-chat-server-tsconfig-json"></a>
 ===== FILE START =====
 Path: apps/chat-server/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/chat-server/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/chat-server/tsconfig.json
 Bytes: 331  Lines: 16  Modified: 2025-08-30T23:03:38Z
 SHA256: 3c7b8f1bcf6f2443acd85e199b497a8bb0a005fd38d5d5dc032c99f291fa6710   Language: json   Role: source
 Summary: 
@@ -2354,7 +2355,7 @@ Summary:
 <a id="apps-data-api-readme-md"></a>
 ===== FILE START =====
 Path: apps/data-api/README.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/README.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/README.md
 Bytes: 834  Lines: 32  Modified: 2025-09-01T06:48:24Z
 SHA256: 5547023df1ad500ef1439d3a094d25c7ecfc894b03fef174b725c6bc89e5f716   Language: md   Role: source
 Summary: 
@@ -2401,7 +2402,7 @@ node -e "
 <a id="apps-data-api-package-json"></a>
 ===== FILE START =====
 Path: apps/data-api/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/package.json
 Bytes: 660  Lines: 24  Modified: 2025-09-01T06:41:28Z
 SHA256: 8ba967bb7168ceadbe42526b363a4ba8213e0177a7962378601296df3a0ed1ba   Language: json   Role: source
 Summary: 
@@ -2440,7 +2441,7 @@ Summary:
 <a id="apps-data-api-src-config-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/config.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/config.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/config.ts
 Bytes: 165  Lines: 5  Modified: 2025-09-01T06:41:46Z
 SHA256: 32f520ea42ba4d1b881771b9d4b54654972fd935b532f540bec12ced45ada865   Language: typescript   Role: source
 Summary: 
@@ -2460,7 +2461,7 @@ export const ENABLE_WS = (process.env.DATA_API_WS ?? "1") === "1";
 <a id="apps-data-api-src-domain-events-types-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/events/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/events/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/events/types.ts
 Bytes: 0  Lines: 0  Modified: 2025-09-01T06:39:55Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -2475,7 +2476,7 @@ Summary:
 <a id="apps-data-api-src-domain-players-service-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/players/service.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/players/service.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/players/service.ts
 Bytes: 0  Lines: 0  Modified: 2025-09-01T06:39:55Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -2490,7 +2491,7 @@ Summary:
 <a id="apps-data-api-src-domain-players-types-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/players/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/players/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/players/types.ts
 Bytes: 0  Lines: 0  Modified: 2025-09-01T06:39:55Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -2505,7 +2506,7 @@ Summary:
 <a id="apps-data-api-src-domain-towns-service-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/towns/service.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/towns/service.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/towns/service.ts
 Bytes: 2151  Lines: 64  Modified: 2025-09-01T06:42:50Z
 SHA256: c8680d2718b181c38f7d46de392bf3402207ccab187b17894804ca6c9e054fde   Language: typescript   Role: source
 Summary: 
@@ -2584,7 +2585,7 @@ export class TownService {
 <a id="apps-data-api-src-domain-towns-types-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/towns/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/towns/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/towns/types.ts
 Bytes: 839  Lines: 43  Modified: 2025-09-01T06:42:36Z
 SHA256: af952bb016320b7e2157140d84fd6f46ed292d2e2d2b46dc5aa8ff19e995e020   Language: typescript   Role: source
 Summary: 
@@ -2642,7 +2643,7 @@ export interface Town {
 <a id="apps-data-api-src-domain-towns-validators-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/towns/validators.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/towns/validators.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/towns/validators.ts
 Bytes: 700  Lines: 27  Modified: 2025-09-01T06:42:43Z
 SHA256: 923c38972dc6dfe7915cc0c7f1e4d58b154e6f2c237fa14c53f05728a54f66c1   Language: typescript   Role: source
 Summary: 
@@ -2684,7 +2685,7 @@ export const createFarmZ = z.object({
 <a id="apps-data-api-src-domain-world-types-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/world/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/world/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/world/types.ts
 Bytes: 105  Lines: 3  Modified: 2025-09-01T06:42:20Z
 SHA256: 86b93a6bf645d941bbb3001a43aea716c7330fa718707c4316a2eb71c322befa   Language: typescript   Role: source
 Summary: 
@@ -2702,7 +2703,7 @@ export type RegionId = string; // e.g. "reg:99123:-74000"
 <a id="apps-data-api-src-domain-world-util-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/domain/world/util.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/domain/world/util.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/domain/world/util.ts
 Bytes: 262  Lines: 11  Modified: 2025-09-01T06:42:27Z
 SHA256: 1e56f27bdceaeaea896a93dca8ede816f5c74137cc7633dc50fc282b9a699a20   Language: typescript   Role: source
 Summary: 
@@ -2728,7 +2729,7 @@ export function regionFor(c: Coord): RegionId {
 <a id="apps-data-api-src-index-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/index.ts
 Bytes: 628  Lines: 22  Modified: 2025-09-01T06:44:47Z
 SHA256: 5619819f2b9950dc02a092eace2c9aca89984c897c481d0a0fd374df9c0250ee   Language: typescript   Role: source
 Summary: 
@@ -2765,7 +2766,7 @@ export function buildApp(publish?: (topic: string, ev: any)=>void) {
 <a id="apps-data-api-src-routes-buildings-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/routes/buildings.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/routes/buildings.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/routes/buildings.ts
 Bytes: 502  Lines: 15  Modified: 2025-09-01T06:43:48Z
 SHA256: dd7157b61c93c6a70d0458e1cd4ecf6a89f7184a6abfe45db172098c2b9e18b0   Language: typescript   Role: source
 Summary: 
@@ -2795,7 +2796,7 @@ export function mountBuildings(r: Router, svc: TownService) {
 <a id="apps-data-api-src-routes-farms-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/routes/farms.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/routes/farms.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/routes/farms.ts
 Bytes: 490  Lines: 15  Modified: 2025-09-01T06:43:50Z
 SHA256: 6a321bbfaa4195df03427fdc8dff59367280b4c13894b4f503c35d6675742d08   Language: typescript   Role: source
 Summary: 
@@ -2825,7 +2826,7 @@ export function mountFarms(r: Router, svc: TownService) {
 <a id="apps-data-api-src-routes-health-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/routes/health.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/routes/health.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/routes/health.ts
 Bytes: 151  Lines: 6  Modified: 2025-09-01T06:43:27Z
 SHA256: c068cb75f9776e397745f0c4ae8b02d7c3234a74c37213e26fa572e35ebed193   Language: typescript   Role: source
 Summary: 
@@ -2846,7 +2847,7 @@ export function mountHealth(r: Router) {
 <a id="apps-data-api-src-routes-markets-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/routes/markets.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/routes/markets.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/routes/markets.ts
 Bytes: 166  Lines: 5  Modified: 2025-09-01T06:43:57Z
 SHA256: d681206366791e5b19d11c4962cd84f58e839d731b66f84d828b89a48656448b   Language: typescript   Role: source
 Summary: 
@@ -2866,7 +2867,7 @@ export function mountMarkets(r: Router) {
 <a id="apps-data-api-src-routes-towns-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/routes/towns.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/routes/towns.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/routes/towns.ts
 Bytes: 719  Lines: 24  Modified: 2025-09-01T06:43:24Z
 SHA256: 3468925333f0141c902fcbf711c41f1d3343fdd04fadff891db4f3d7562ae29c   Language: typescript   Role: source
 Summary: 
@@ -2905,7 +2906,7 @@ export function mountTowns(r: Router, svc: TownService) {
 <a id="apps-data-api-src-server-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/server.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/server.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/server.ts
 Bytes: 651  Lines: 19  Modified: 2025-09-01T06:44:55Z
 SHA256: b0bcd116265350c1477ac7ccae638ffd93054f59b9e279a4a66a124d857eddda   Language: typescript   Role: source
 Summary: 
@@ -2939,7 +2940,7 @@ server.listen(DATA_API_PORT, "127.0.0.1", () => {
 <a id="apps-data-api-src-store-index-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/store/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/store/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/store/index.ts
 Bytes: 0  Lines: 0  Modified: 2025-09-01T06:39:55Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -2954,7 +2955,7 @@ Summary:
 <a id="apps-data-api-src-store-memory-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/store/memory.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/store/memory.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/store/memory.ts
 Bytes: 131  Lines: 5  Modified: 2025-09-01T06:42:05Z
 SHA256: e6544a74f3be0659653a919fb2e0cc3553aad2ce9d9742b2cb8d5462df3c51ee   Language: typescript   Role: source
 Summary: 
@@ -2974,7 +2975,7 @@ export const db: Store = createMemoryStore();
 <a id="apps-data-api-src-ws-bus-ts"></a>
 ===== FILE START =====
 Path: apps/data-api/src/ws/bus.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/src/ws/bus.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/src/ws/bus.ts
 Bytes: 1084  Lines: 34  Modified: 2025-09-01T06:44:12Z
 SHA256: c0c8666dbd5d827e83b84907fb3e536ec0a16bb55e65527dd294f0d1227b2c35   Language: typescript   Role: source
 Summary: 
@@ -3023,7 +3024,7 @@ export function createBus(server: import("http").Server) {
 <a id="apps-data-api-tsconfig-json"></a>
 ===== FILE START =====
 Path: apps/data-api/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/data-api/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/data-api/tsconfig.json
 Bytes: 301  Lines: 15  Modified: 2025-09-01T06:41:37Z
 SHA256: f6f9684e22f36ff2571bfbbffde8b1b7807431b8356d5991571b463923f3ec48   Language: json   Role: source
 Summary: 
@@ -3053,7 +3054,7 @@ Summary:
 <a id="apps-game-server-package-json"></a>
 ===== FILE START =====
 Path: apps/game-server/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/package.json
 Bytes: 442  Lines: 21  Modified: 2025-08-31T00:11:27Z
 SHA256: ca0e6eff1facfcd2d3df40db737c1f09c48aa174939c53cc4d6221e1101fc126   Language: json   Role: source
 Summary: 
@@ -3089,7 +3090,7 @@ Summary:
 <a id="apps-game-server-src-auth-jwtverify-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/auth/jwtVerify.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/auth/jwtVerify.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/auth/jwtVerify.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3105,7 +3106,7 @@ Summary:
 <a id="apps-game-server-src-auth-jwtverify-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/auth/jwtVerify.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/auth/jwtVerify.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/auth/jwtVerify.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3120,7 +3121,7 @@ Summary:
 <a id="apps-game-server-src-chat-handler-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/chat/handler.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/chat/handler.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/chat/handler.js
 Bytes: 770  Lines: 29  Modified: 2025-08-11T21:04:16Z
 SHA256: a517c85f28c25d4fb24f19b41adcc71ae398529268953cafa329832dc9fc0635   Language: javascript   Role: source
 Summary: 
@@ -3164,7 +3165,7 @@ function sanitizeRoom(r) {
 <a id="apps-game-server-src-chat-handler-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/chat/handler.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/chat/handler.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/chat/handler.ts
 Bytes: 1179  Lines: 36  Modified: 2025-08-30T14:40:36Z
 SHA256: 9852db92b1f2938bf8d69b30bd1294ca4e989c908f3f39fb815058da0998ecaa   Language: typescript   Role: source
 Summary: 
@@ -3215,7 +3216,7 @@ export { handleChatIncoming as handleChatMessage };
 <a id="apps-game-server-src-chat-store-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/chat/store.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/chat/store.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/chat/store.ts
 Bytes: 1616  Lines: 49  Modified: 2025-08-30T14:41:12Z
 SHA256: 4267324000e09e350beaa5ef0dfa305b77658778acf11ffaaa1970431dff1a67   Language: typescript   Role: source
 Summary: 
@@ -3279,7 +3280,7 @@ export async function recent(room: string, limit = 50, afterMs?: number): Promis
 <a id="apps-game-server-src-index-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/index.ts
 Bytes: 6980  Lines: 218  Modified: 2025-08-30T14:40:02Z
 SHA256: 3ff1660869f45f73ac268f05bf893db32334e71ffd622bb4c57b6c0251b5d955   Language: typescript   Role: source
 Summary: 
@@ -3512,7 +3513,7 @@ function isChatMessage(f: any): f is ChatC2S {
 <a id="apps-game-server-src-index-ts-bak"></a>
 ===== FILE START =====
 Path: apps/game-server/src/index.ts.bak
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/index.ts.bak
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/index.ts.bak
 Bytes: 5175  Lines: 180  Modified: 2025-08-29T00:38:20Z
 SHA256: 795180e4836cc51a927c410bfbb2e4cb8bf404ee239bb3ed1e4d63207c1bd96a   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -3527,7 +3528,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-server-src-net-protocol-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/net/protocol.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/net/protocol.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/net/protocol.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3543,7 +3544,7 @@ Summary:
 <a id="apps-game-server-src-net-protocol-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/net/protocol.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/net/protocol.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/net/protocol.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3558,7 +3559,7 @@ Summary:
 <a id="apps-game-server-src-net-wsserver-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/net/wsServer.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/net/wsServer.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/net/wsServer.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3574,7 +3575,7 @@ Summary:
 <a id="apps-game-server-src-net-wsserver-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/net/wsServer.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/net/wsServer.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/net/wsServer.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3589,7 +3590,7 @@ Summary:
 <a id="apps-game-server-src-persistence-db-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/db.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/db.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/db.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3605,7 +3606,7 @@ Summary:
 <a id="apps-game-server-src-persistence-db-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/db.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/db.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/db.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3620,7 +3621,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-buildings-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/buildings.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/buildings.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/buildings.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3636,7 +3637,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-buildings-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/buildings.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/buildings.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/buildings.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3651,7 +3652,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-users-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/users.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/users.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/users.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3667,7 +3668,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-users-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/users.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/users.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/users.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3682,7 +3683,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-warboys-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/warboys.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/warboys.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/warboys.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3698,7 +3699,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-warboys-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/warboys.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/warboys.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/warboys.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3713,7 +3714,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-zones-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/zones.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/zones.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/zones.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3729,7 +3730,7 @@ Summary:
 <a id="apps-game-server-src-persistence-repos-zones-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/persistence/repos/zones.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/persistence/repos/zones.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/persistence/repos/zones.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3744,7 +3745,7 @@ Summary:
 <a id="apps-game-server-src-telemetry-metrics-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/telemetry/metrics.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/telemetry/metrics.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/telemetry/metrics.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3760,7 +3761,7 @@ Summary:
 <a id="apps-game-server-src-telemetry-metrics-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/telemetry/metrics.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/telemetry/metrics.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/telemetry/metrics.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3775,7 +3776,7 @@ Summary:
 <a id="apps-game-server-src-world-chunks-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/chunks.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/chunks.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/chunks.js
 Bytes: 485  Lines: 16  Modified: 2025-08-11T21:04:16Z
 SHA256: ee1c440eb2edccd84e6fa4220f526f715124afea351e255b0e79408b00517089   Language: javascript   Role: source
 Summary: 
@@ -3806,7 +3807,7 @@ export function loadOrGenChunk(cx, cy) {
 <a id="apps-game-server-src-world-chunks-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/chunks.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/chunks.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/chunks.ts
 Bytes: 560  Lines: 19  Modified: 2025-08-30T21:24:18Z
 SHA256: 210c4bd5a87298c2502482b04af4020c926a8be4a1c0d87608954f86973e9c59   Language: typescript   Role: source
 Summary: 
@@ -3840,7 +3841,7 @@ export function loadOrGenChunk(cx:number, cy:number): ChunkSnapshot {
 <a id="apps-game-server-src-world-entities-building-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/entities/Building.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/entities/Building.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/entities/Building.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3856,7 +3857,7 @@ Summary:
 <a id="apps-game-server-src-world-entities-building-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/entities/Building.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/entities/Building.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/entities/Building.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3871,7 +3872,7 @@ Summary:
 <a id="apps-game-server-src-world-entities-player-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/entities/Player.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/entities/Player.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/entities/Player.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3887,7 +3888,7 @@ Summary:
 <a id="apps-game-server-src-world-entities-player-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/entities/Player.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/entities/Player.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/entities/Player.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3902,7 +3903,7 @@ Summary:
 <a id="apps-game-server-src-world-entities-warboy-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/entities/Warboy.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/entities/Warboy.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/entities/Warboy.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -3918,7 +3919,7 @@ Summary:
 <a id="apps-game-server-src-world-entities-warboy-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/entities/Warboy.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/entities/Warboy.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/entities/Warboy.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -3933,7 +3934,7 @@ Summary:
 <a id="apps-game-server-src-world-gen-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/gen.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/gen.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/gen.js
 Bytes: 504  Lines: 11  Modified: 2025-08-11T21:04:16Z
 SHA256: 5b64684560f28e7fe9545e4ea4fdf32130d48fee6e7815e80fbc74063cc51277   Language: javascript   Role: source
 Summary: 
@@ -3959,7 +3960,7 @@ export function genChunk(seed, cx, cy) {
 <a id="apps-game-server-src-world-gen-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/gen.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/gen.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/gen.ts
 Bytes: 522  Lines: 13  Modified: 2025-08-10T22:33:58Z
 SHA256: e447d49ee93b11a0508a401613589a3f3c05bc6a8a16d882283d13c336d8b033   Language: typescript   Role: source
 Summary: 
@@ -3987,7 +3988,7 @@ export function genChunk(seed:number, cx:number, cy:number): TerrainChunk {
 <a id="apps-game-server-src-world-overlays-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/overlays.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/overlays.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/overlays.js
 Bytes: 1348  Lines: 41  Modified: 2025-08-11T21:04:16Z
 SHA256: 7c2ab2d1f18effa4a80175465ae0d1f650dde17fc31c64a3f7b28e7814bef9b4   Language: javascript   Role: source
 Summary: 
@@ -4043,7 +4044,7 @@ export function getChunkVersion(cx, cy) {
 <a id="apps-game-server-src-world-overlays-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/overlays.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/overlays.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/overlays.ts
 Bytes: 1537  Lines: 42  Modified: 2025-08-11T00:38:13Z
 SHA256: 89fb6eacf7066307876dd34973a0ec174c8ef5bb345c931386f749beb5d133a2   Language: typescript   Role: source
 Summary: 
@@ -4100,7 +4101,7 @@ export function getChunkVersion(cx:number, cy:number): number {
 <a id="apps-game-server-src-world-storage-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/storage.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/storage.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/storage.js
 Bytes: 212  Lines: 8  Modified: 2025-08-11T21:04:16Z
 SHA256: 83f679619c55ab5f81e67616047654dae07155b9a72717d860f153b78848d001   Language: javascript   Role: source
 Summary: 
@@ -4123,7 +4124,7 @@ export function putSnapshot(s) {
 <a id="apps-game-server-src-world-storage-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/storage.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/storage.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/storage.ts
 Bytes: 327  Lines: 12  Modified: 2025-08-10T22:34:05Z
 SHA256: 00b429b29c8327603cb417c1ca67555c3a7529f6ca2a23a7b43b8514dec8374b   Language: typescript   Role: source
 Summary: 
@@ -4150,7 +4151,7 @@ export function putSnapshot(s: ChunkSnapshot) {
 <a id="apps-game-server-src-world-systems-battle-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/battle.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/battle.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/battle.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -4166,7 +4167,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-battle-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/battle.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/battle.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/battle.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -4181,7 +4182,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-building-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/building.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/building.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/building.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -4197,7 +4198,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-building-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/building.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/building.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/building.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -4212,7 +4213,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-capture-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/capture.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/capture.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/capture.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -4228,7 +4229,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-capture-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/capture.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/capture.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/capture.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -4243,7 +4244,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-encounters-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/encounters.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/encounters.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/encounters.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -4259,7 +4260,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-encounters-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/encounters.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/encounters.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/encounters.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -4274,7 +4275,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-movement-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/movement.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/movement.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/movement.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -4290,7 +4291,7 @@ Summary:
 <a id="apps-game-server-src-world-systems-movement-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/systems/movement.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/systems/movement.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/systems/movement.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -4305,7 +4306,7 @@ Summary:
 <a id="apps-game-server-src-world-zones-zone-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/zones/Zone.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/zones/Zone.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/zones/Zone.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -4321,7 +4322,7 @@ Summary:
 <a id="apps-game-server-src-world-zones-zone-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/zones/Zone.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/zones/Zone.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/zones/Zone.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -4336,7 +4337,7 @@ Summary:
 <a id="apps-game-server-src-world-zones-zonemanager-js"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/zones/ZoneManager.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/zones/ZoneManager.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/zones/ZoneManager.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -4352,7 +4353,7 @@ Summary:
 <a id="apps-game-server-src-world-zones-zonemanager-ts"></a>
 ===== FILE START =====
 Path: apps/game-server/src/world/zones/ZoneManager.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/src/world/zones/ZoneManager.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/src/world/zones/ZoneManager.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -4367,7 +4368,7 @@ Summary:
 <a id="apps-game-server-tsconfig-json"></a>
 ===== FILE START =====
 Path: apps/game-server/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/tsconfig.json
 Bytes: 535  Lines: 23  Modified: 2025-08-31T00:00:21Z
 SHA256: 83bb494e378fa2b8eba1175781c8f5e2a9b54464b67016a40aad96096431ea4a   Language: json   Role: source
 Summary: 
@@ -4405,7 +4406,7 @@ Summary:
 <a id="apps-game-server-tsconfig-tsbuildinfo"></a>
 ===== FILE START =====
 Path: apps/game-server/tsconfig.tsbuildinfo
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-server/tsconfig.tsbuildinfo
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-server/tsconfig.tsbuildinfo
 Bytes: 41628  Lines: 0  Modified: 2025-08-31T00:01:20Z
 SHA256: 3d8da6a19e9f1b90a1758dbbb7006e7b074361cde969e340b23584766ce8b370   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -4420,7 +4421,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-web-gitignore"></a>
 ===== FILE START =====
 Path: apps/game-web/.gitignore
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/.gitignore
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/.gitignore
 Bytes: 43  Lines: 4  Modified: 2025-08-30T18:51:27Z
 SHA256: fbeba30608390c093b7e2ce116c822f5579644258cc8fec79f01ecc1648fe714   Language: plain   Role: source
 Summary: 
@@ -4439,7 +4440,7 @@ src/**/*.d.ts
 <a id="apps-game-web-index-html"></a>
 ===== FILE START =====
 Path: apps/game-web/index.html
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/index.html
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/index.html
 Bytes: 279  Lines: 12  Modified: 2025-08-09T23:44:04Z
 SHA256: e58d36303b02c99d8c8f0635332458d0b0989c0b55ddcc39dc5e3e4f5a1afd38   Language: html   Role: source
 Summary: 
@@ -4466,7 +4467,7 @@ Summary:
 <a id="apps-game-web-package-json"></a>
 ===== FILE START =====
 Path: apps/game-web/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/package.json
 Bytes: 608  Lines: 23  Modified: 2025-08-30T23:03:38Z
 SHA256: 973224288cf9c24c4820425360d1701466dd3112a8df0e023c4d278818698850   Language: json   Role: source
 Summary: 
@@ -4504,7 +4505,7 @@ Summary:
 <a id="apps-game-web-public-tiles-grass-png"></a>
 ===== FILE START =====
 Path: apps/game-web/public/tiles/grass.png
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/public/tiles/grass.png
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/public/tiles/grass.png
 Bytes: 244  Lines: 3  Modified: 2025-05-22T14:06:23Z
 SHA256: 6675f22f997560f62b0fee5949a670132cdf89fc359caac46a6afd8a27ca7634   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -4519,7 +4520,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-web-public-tiles-rock-png"></a>
 ===== FILE START =====
 Path: apps/game-web/public/tiles/rock.png
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/public/tiles/rock.png
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/public/tiles/rock.png
 Bytes: 3420  Lines: 12  Modified: 2025-05-22T14:06:19Z
 SHA256: f3923790087f3a25a531a26dcf3536750293b349dd2af85d74b432b531426eb2   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -4534,7 +4535,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-web-public-tiles-water-png"></a>
 ===== FILE START =====
 Path: apps/game-web/public/tiles/water.png
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/public/tiles/water.png
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/public/tiles/water.png
 Bytes: 121  Lines: 2  Modified: 2025-05-22T14:06:23Z
 SHA256: 2a46f8044aae6b14d294f2896dbf4a096412a252f235a955960496f5ac71b05a   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -4549,7 +4550,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-web-src-app-app-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/App.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/App.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/App.d.ts
 Bytes: 97  Lines: 3  Modified: 2025-08-11T22:17:17Z
 SHA256: 2daed528d828c250a190ca9c466b2ad13b275a47b9ccf2cd5516aa5b8befe3c0   Language: typescript   Role: source
 Summary: 
@@ -4567,7 +4568,7 @@ export default App;
 <a id="apps-game-web-src-app-app-tsx"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/App.tsx
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/App.tsx
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/App.tsx
 Bytes: 16147  Lines: 422  Modified: 2025-08-30T19:00:05Z
 SHA256: 251edacbbb4e9a21072a66a43c2e68b73a4bcc21c588ba49b21f7e3e3cc0a486   Language: tsx   Role: source
 Summary: 
@@ -5004,7 +5005,7 @@ export default App;
 <a id="apps-game-web-src-app-app-tsx-bak"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/App.tsx.bak
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/App.tsx.bak
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/App.tsx.bak
 Bytes: 19011  Lines: 448  Modified: 2025-08-30T16:32:54Z
 SHA256: 18808daa8687c2309bde650709f9c4030ea83f847b9ece764c8736110b28a473   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -5019,7 +5020,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-web-src-app-chat-chatpanel-tsx"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/chat/ChatPanel.tsx
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/chat/ChatPanel.tsx
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/chat/ChatPanel.tsx
 Bytes: 2188  Lines: 55  Modified: 2025-08-30T18:59:18Z
 SHA256: 0e357708f759f0c5bc885608016c171c741120b6e71e11050300cf07dbe8297f   Language: tsx   Role: source
 Summary: 
@@ -5089,7 +5090,7 @@ const buttonStyle: React.CSSProperties = { background: '#222', border: '1px soli
 <a id="apps-game-web-src-app-chat-usechat-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/chat/useChat.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/chat/useChat.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/chat/useChat.d.ts
 Bytes: 383  Lines: 9  Modified: 2025-08-11T22:17:17Z
 SHA256: 5e4bf4f4994d8d00734bf89083627be7ff2ff68f015da8795856ab110d96ba3b   Language: typescript   Role: source
 Summary: 
@@ -5113,7 +5114,7 @@ export declare function useChat(wsRef: React.MutableRefObject<any>, defaultRoom?
 <a id="apps-game-web-src-app-chat-usechat-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/chat/useChat.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/chat/useChat.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/chat/useChat.js
 Bytes: 1416  Lines: 38  Modified: 2025-08-11T22:17:17Z
 SHA256: 0cec0de2253fd43ef168607969e6e70bba274313c8f1e946bcf7d44ff57380dd   Language: javascript   Role: source
 Summary: 
@@ -5166,7 +5167,7 @@ export function useChat(wsRef, defaultRoom = "global") {
 <a id="apps-game-web-src-app-chat-usechat-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/chat/useChat.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/chat/useChat.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/chat/useChat.ts
 Bytes: 1344  Lines: 41  Modified: 2025-08-11T21:39:49Z
 SHA256: 262862cd6af2ad0ffca2b7fd8eb3a7eb945fcbc872921c8dc037b1fe4f795947   Language: typescript   Role: source
 Summary: 
@@ -5222,7 +5223,7 @@ export function useChat(wsRef: React.MutableRefObject<any>, defaultRoom = "globa
 <a id="apps-game-web-src-app-chat-wirechat-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/chat/wireChat.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/chat/wireChat.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/chat/wireChat.ts
 Bytes: 1248  Lines: 41  Modified: 2025-08-30T15:27:42Z
 SHA256: 62560dd4fc0008a33c55ac47a122d5c9da7d1a50880229f5e76e5b5fc3193ba1   Language: typescript   Role: source
 Summary: 
@@ -5278,7 +5279,7 @@ export function wireChat(ws: WebSocket, ui: UIManager, rect: Rect = { x: 12, y: 
 <a id="apps-game-web-src-app-game-assets-sprites-alex-16x16-png"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/assets/sprites/Alex_16x16.png
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/assets/sprites/Alex_16x16.png
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/assets/sprites/Alex_16x16.png
 Bytes: 18938  Lines: 49  Modified: 2020-12-22T23:12:28Z
 SHA256: 3db9c01ac6db47abfefe381d33f1c0a9bf22930b9b25187fc213a723333f0212   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -5293,7 +5294,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-web-src-app-game-net-wsclient-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/net/wsClient.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/net/wsClient.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/net/wsClient.d.ts
 Bytes: 827  Lines: 38  Modified: 2025-08-11T22:17:17Z
 SHA256: 86177cd2b1282c3a21a3844046c7f51e9d3b39ad4d8bc632c387e5f3b39e7dc5   Language: typescript   Role: source
 Summary: 
@@ -5346,7 +5347,7 @@ export {};
 <a id="apps-game-web-src-app-game-net-wsclient-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/net/wsClient.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/net/wsClient.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/net/wsClient.js
 Bytes: 1172  Lines: 37  Modified: 2025-08-11T22:17:17Z
 SHA256: 8f9063c58356b34dcbb2799e55b5203176fd155c08a090442f9aff9853ebc1cc   Language: javascript   Role: source
 Summary: 
@@ -5398,7 +5399,7 @@ export function connectWS(opts) {
 <a id="apps-game-web-src-app-game-net-wsclient-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/net/wsClient.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/net/wsClient.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/net/wsClient.ts
 Bytes: 2793  Lines: 69  Modified: 2025-08-30T19:00:55Z
 SHA256: bf1313e53adf70f240eaa57d7d964022bc565930434243aca5e4c168eeae8f12   Language: typescript   Role: source
 Summary: 
@@ -5482,7 +5483,7 @@ console.log('[wsClient] module loaded');
 <a id="apps-game-web-src-app-game-sprites-anim-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/anim.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/anim.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/anim.d.ts
 Bytes: 246  Lines: 12  Modified: 2025-08-11T22:17:17Z
 SHA256: 7881b0262ed10ad636823626b7ae6a446a3285959caf230eae685d678fcb7347   Language: typescript   Role: source
 Summary: 
@@ -5509,7 +5510,7 @@ export declare class Animator {
 <a id="apps-game-web-src-app-game-sprites-anim-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/anim.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/anim.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/anim.js
 Bytes: 520  Lines: 15  Modified: 2025-08-11T22:17:17Z
 SHA256: bcb17551d18a9c31a539c4b364e0a0cce1aea7bef7c0ccbc2e106f1bf00d013b   Language: javascript   Role: source
 Summary: 
@@ -5539,7 +5540,7 @@ export class Animator {
 <a id="apps-game-web-src-app-game-sprites-anim-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/anim.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/anim.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/anim.ts
 Bytes: 585  Lines: 20  Modified: 2025-08-11T01:08:45Z
 SHA256: 916b43c6c1333442b0201403fee3ea27fdb5f3ad0261bda3bfbde9463dc2943b   Language: typescript   Role: source
 Summary: 
@@ -5574,7 +5575,7 @@ export class Animator {
 <a id="apps-game-web-src-app-game-sprites-loader-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/loader.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/loader.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/loader.d.ts
 Bytes: 75  Lines: 1  Modified: 2025-08-11T22:17:17Z
 SHA256: 082b87ae6c6534751cadfccfc0c3c38f44fe6aebd65202f9e93a5660583940ed   Language: typescript   Role: source
 Summary: 
@@ -5590,7 +5591,7 @@ export declare function loadImage(src: string): Promise<HTMLImageElement>;
 <a id="apps-game-web-src-app-game-sprites-loader-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/loader.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/loader.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/loader.js
 Bytes: 252  Lines: 8  Modified: 2025-08-11T22:17:17Z
 SHA256: 981021ad917ebc42224f7c4a27735b31d219ad7228acd88833ed779bd6fd13ad   Language: javascript   Role: source
 Summary: 
@@ -5613,7 +5614,7 @@ export function loadImage(src) {
 <a id="apps-game-web-src-app-game-sprites-loader-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/loader.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/loader.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/loader.ts
 Bytes: 259  Lines: 9  Modified: 2025-08-11T01:08:08Z
 SHA256: 03689bd9f2dd98234e9913619bf58dd372e27079b02b1318656196711c7a4146   Language: typescript   Role: source
 Summary: 
@@ -5637,7 +5638,7 @@ export function loadImage(src: string) {
 <a id="apps-game-web-src-app-game-sprites-spritesheet-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/spriteSheet.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/spriteSheet.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/spriteSheet.d.ts
 Bytes: 330  Lines: 8  Modified: 2025-08-11T22:17:17Z
 SHA256: e70788ead94e99c30e3b42a98cc1613f18a0363a2c9558f832f3744693c39906   Language: typescript   Role: source
 Summary: 
@@ -5660,7 +5661,7 @@ export declare class SpriteSheet {
 <a id="apps-game-web-src-app-game-sprites-spritesheet-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/spriteSheet.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/spriteSheet.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/spriteSheet.js
 Bytes: 512  Lines: 14  Modified: 2025-08-11T22:17:17Z
 SHA256: ff35a4dc929e54d7fa4d0f75cc2476d5583ea4b4ed613b27224b222560c3feca   Language: javascript   Role: source
 Summary: 
@@ -5689,7 +5690,7 @@ export class SpriteSheet {
 <a id="apps-game-web-src-app-game-sprites-spritesheet-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/sprites/spriteSheet.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/sprites/spriteSheet.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/sprites/spriteSheet.ts
 Bytes: 527  Lines: 21  Modified: 2025-08-11T01:08:25Z
 SHA256: 04549fb60791001fe17b2d639aa60f90989215e482ea4cb2d223d802a6992c76   Language: typescript   Role: source
 Summary: 
@@ -5725,7 +5726,7 @@ export class SpriteSheet {
 <a id="apps-game-web-src-app-game-state-chunks-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/state/chunks.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/state/chunks.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/state/chunks.d.ts
 Bytes: 451  Lines: 16  Modified: 2025-08-11T22:17:17Z
 SHA256: 2922191ec22ab772ff38daf4339fbf7a605e0c4af46ba4fdd0e13bcb489a01c4   Language: typescript   Role: source
 Summary: 
@@ -5756,7 +5757,7 @@ export {};
 <a id="apps-game-web-src-app-game-state-chunks-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/state/chunks.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/state/chunks.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/state/chunks.js
 Bytes: 970  Lines: 26  Modified: 2025-08-11T22:17:17Z
 SHA256: e067ab20058e2eb20160743c9f7a18bcde04caa8e97877fcae48082ee2d0c4ac   Language: javascript   Role: source
 Summary: 
@@ -5797,7 +5798,7 @@ export function decodeChunk(msg) {
 <a id="apps-game-web-src-app-game-state-chunks-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/state/chunks.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/state/chunks.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/state/chunks.ts
 Bytes: 1102  Lines: 29  Modified: 2025-08-10T00:38:37Z
 SHA256: d785190b82d63e1d224f2f8ca351a1348689b4f436f5a7da37ae0bdb53ceffba   Language: typescript   Role: source
 Summary: 
@@ -5841,7 +5842,7 @@ export function decodeChunk(msg:any): Chunk {
 <a id="apps-game-web-src-app-game-world-aoi-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/aoi.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/aoi.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/aoi.d.ts
 Bytes: 111  Lines: 4  Modified: 2025-08-11T22:17:17Z
 SHA256: c7b2fc4ed68018e4a0db986be3b417059c287dc26f8c9a6cacc1c02184cfbc31   Language: typescript   Role: source
 Summary: 
@@ -5860,7 +5861,7 @@ export declare const aoiCoords: (cx: number, cy: number, r?: number) => {
 <a id="apps-game-web-src-app-game-world-aoi-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/aoi.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/aoi.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/aoi.js
 Bytes: 215  Lines: 7  Modified: 2025-08-11T22:17:17Z
 SHA256: b546a4cea124f31bf27c95be7028894dfe01682cb861c878a3b209ab1adcf517   Language: javascript   Role: source
 Summary: 
@@ -5882,7 +5883,7 @@ export const aoiCoords = (cx, cy, r = 1) => {
 <a id="apps-game-web-src-app-game-world-aoi-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/aoi.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/aoi.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/aoi.ts
 Bytes: 205  Lines: 6  Modified: 2025-08-10T22:34:47Z
 SHA256: 0385b0e58dc5013a1927fc11459fd2782a4e17d3fb99f081cc1c115a5475c9f8   Language: typescript   Role: source
 Summary: 
@@ -5903,7 +5904,7 @@ export const aoiCoords = (cx:number, cy:number, r=1) => {
 <a id="apps-game-web-src-app-game-world-cache-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/cache.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/cache.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/cache.d.ts
 Bytes: 454  Lines: 21  Modified: 2025-08-11T22:17:17Z
 SHA256: 03d6a2a0f994c3535efc7e4aac022c9f39c8c4e05d93429c18a770422e5165d2   Language: typescript   Role: source
 Summary: 
@@ -5939,7 +5940,7 @@ export declare class ChunkCache {
 <a id="apps-game-web-src-app-game-world-cache-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/cache.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/cache.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/cache.js
 Bytes: 429  Lines: 12  Modified: 2025-08-11T22:17:17Z
 SHA256: b6ca1000f86790194fa3359ca7ad04198c197bbe42993cb67f2d4a7acaec66ad   Language: javascript   Role: source
 Summary: 
@@ -5966,7 +5967,7 @@ export class ChunkCache {
 <a id="apps-game-web-src-app-game-world-cache-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/cache.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/cache.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/cache.ts
 Bytes: 641  Lines: 15  Modified: 2025-08-10T22:34:41Z
 SHA256: aba8eae9d51c73ab4583658e57e43e938f956a8d035a5f84f77c42fa241e969c   Language: typescript   Role: source
 Summary: 
@@ -5996,7 +5997,7 @@ export class ChunkCache {
 <a id="apps-game-web-src-app-game-world-decode-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/decode.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/decode.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/decode.d.ts
 Bytes: 61  Lines: 1  Modified: 2025-08-11T22:17:17Z
 SHA256: 4986dd79854fa48f7355e3eedbe927616ac525a749cfdc61af344d643a85c776   Language: typescript   Role: source
 Summary: 
@@ -6012,7 +6013,7 @@ export declare const decodeTiles: (tilesB64: string) => any;
 <a id="apps-game-web-src-app-game-world-decode-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/decode.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/decode.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/decode.js
 Bytes: 101  Lines: 2  Modified: 2025-08-11T23:27:15Z
 SHA256: a0d53c8bfcd1e13ae3581185abb37a12ce2e3aa7cac811c57065f486ee7d94b6   Language: javascript   Role: source
 Summary: 
@@ -6029,7 +6030,7 @@ export const decodeTiles = (tilesB64) => b64ToU8(tilesB64);
 <a id="apps-game-web-src-app-game-world-decode-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/decode.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/decode.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/decode.ts
 Bytes: 110  Lines: 3  Modified: 2025-08-11T23:27:15Z
 SHA256: 2e5fe62b72fec0fcb5a56ef22062fc34826b76f4d7e1922da9358e8deb497f04   Language: typescript   Role: source
 Summary: 
@@ -6047,7 +6048,7 @@ export const decodeTiles = (tilesB64: string) => b64ToU8(tilesB64);
 <a id="apps-game-web-src-app-game-world-draw-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/draw.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/draw.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/draw.d.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-11T22:17:17Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -6062,7 +6063,7 @@ Summary:
 <a id="apps-game-web-src-app-game-world-draw-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/draw.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/draw.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/draw.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T22:17:17Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -6078,7 +6079,7 @@ Summary:
 <a id="apps-game-web-src-app-game-world-draw-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/draw.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/draw.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/draw.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-10T22:32:38Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -6093,7 +6094,7 @@ Summary:
 <a id="apps-game-web-src-app-game-world-requests-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/requests.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/requests.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/requests.d.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-11T22:17:17Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -6108,7 +6109,7 @@ Summary:
 <a id="apps-game-web-src-app-game-world-requests-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/requests.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/requests.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/requests.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T22:17:17Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -6124,7 +6125,7 @@ Summary:
 <a id="apps-game-web-src-app-game-world-requests-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/game/world/requests.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/game/world/requests.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/game/world/requests.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-10T22:32:38Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -6139,7 +6140,7 @@ Summary:
 <a id="apps-game-web-src-app-routes-login-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/routes/Login.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/routes/Login.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/routes/Login.d.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-11T22:17:17Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -6154,7 +6155,7 @@ Summary:
 <a id="apps-game-web-src-app-routes-login-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/routes/Login.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/routes/Login.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/routes/Login.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T22:17:17Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -6170,7 +6171,7 @@ Summary:
 <a id="apps-game-web-src-app-routes-login-tsx"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/routes/Login.tsx
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/routes/Login.tsx
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/routes/Login.tsx
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: tsx   Role: source
 Summary: 
@@ -6185,7 +6186,7 @@ Summary:
 <a id="apps-game-web-src-app-routes-play-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/routes/Play.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/routes/Play.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/routes/Play.d.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-11T22:17:17Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -6200,7 +6201,7 @@ Summary:
 <a id="apps-game-web-src-app-routes-play-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/routes/Play.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/routes/Play.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/routes/Play.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T22:17:17Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -6216,7 +6217,7 @@ Summary:
 <a id="apps-game-web-src-app-routes-play-tsx"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/routes/Play.tsx
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/routes/Play.tsx
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/routes/Play.tsx
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: tsx   Role: source
 Summary: 
@@ -6231,7 +6232,7 @@ Summary:
 <a id="apps-game-web-src-app-ui-chat-chathud-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/ui/chat/chatHUD.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/ui/chat/chatHUD.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/ui/chat/chatHUD.ts
 Bytes: 1272  Lines: 47  Modified: 2025-08-15T04:41:11Z
 SHA256: 4bf2a0186802dc678b509db65a68186062558d3983855609d9d559e80733587d   Language: typescript   Role: source
 Summary: 
@@ -6293,7 +6294,7 @@ export class ChatHud implements UIElement {
 <a id="apps-game-web-src-app-ui-chat-emojipad-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/ui/chat/emojiPad.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/ui/chat/emojiPad.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/ui/chat/emojiPad.ts
 Bytes: 3978  Lines: 135  Modified: 2025-08-15T04:40:15Z
 SHA256: 83f093f85ca8ce5a30f96b021d84a5eb5f0ab350f93a0f76ee19d1dc79d2995e   Language: typescript   Role: source
 Summary: 
@@ -6443,7 +6444,7 @@ export class EmojiPad implements UIElement {
 <a id="apps-game-web-src-app-ui-core-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/ui/core.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/ui/core.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/ui/core.ts
 Bytes: 1133  Lines: 36  Modified: 2025-08-12T00:50:28Z
 SHA256: ffd239328aff560abdfa1cc464a34140fd68644c8a3acef63972b2c39dd1d5c0   Language: typescript   Role: source
 Summary: 
@@ -6494,7 +6495,7 @@ export function drawPanel(ctx: CanvasRenderingContext2D, r: Rect, title?: string
 <a id="apps-game-web-src-app-ui-input-textcapture-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/ui/input/textCapture.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/ui/input/textCapture.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/ui/input/textCapture.ts
 Bytes: 1887  Lines: 77  Modified: 2025-08-13T03:59:15Z
 SHA256: e94f7622db0f97fd8ac63011154c596a88a560ac08b7a3a1d20268a57653f4dc   Language: typescript   Role: source
 Summary: 
@@ -6586,7 +6587,7 @@ export function createTextCapture(): TextCapture {
 <a id="apps-game-web-src-app-ui-manager-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/ui/manager.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/ui/manager.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/ui/manager.ts
 Bytes: 3376  Lines: 113  Modified: 2025-08-13T03:59:48Z
 SHA256: 0e083d67472d06e993ad2851bbef06c7b946cf267bee66b5355eb8d1897206ec   Language: typescript   Role: source
 Summary: 
@@ -6714,7 +6715,7 @@ export class UIManager {
 <a id="apps-game-web-src-app-ui-widgets-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/app/ui/widgets.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/app/ui/widgets.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/app/ui/widgets.ts
 Bytes: 3664  Lines: 118  Modified: 2025-08-12T00:53:07Z
 SHA256: ec9ede97e34fe5e602a955bca91278eb73ff7d5558dad305879d05e066e59d2f   Language: typescript   Role: source
 Summary: 
@@ -6847,7 +6848,7 @@ export class Button implements UIElement {
 <a id="apps-game-web-src-index-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/index.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/index.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/index.d.ts
 Bytes: 11  Lines: 1  Modified: 2025-08-11T22:17:17Z
 SHA256: 8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881   Language: typescript   Role: source
 Summary: 
@@ -6863,7 +6864,7 @@ export {};
 <a id="apps-game-web-src-index-js"></a>
 ===== FILE START =====
 Path: apps/game-web/src/index.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/index.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/index.js
 Bytes: 168  Lines: 4  Modified: 2025-08-11T22:17:17Z
 SHA256: 8c53abe67524892870f49ce9bc751615a8e72388db8ed5f7aa56de26650f8c4b   Language: javascript   Role: source
 Summary: 
@@ -6882,7 +6883,7 @@ createRoot(document.getElementById('root')).render(<App />);
 <a id="apps-game-web-src-index-tsx"></a>
 ===== FILE START =====
 Path: apps/game-web/src/index.tsx
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/index.tsx
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/index.tsx
 Bytes: 169  Lines: 4  Modified: 2025-08-09T23:44:04Z
 SHA256: df9e247adbc205df2e197160f68e7a0826a8cf0c5fdb74eed323f36a666ee3c1   Language: tsx   Role: source
 Summary: 
@@ -6901,7 +6902,7 @@ createRoot(document.getElementById('root')!).render(<App />);
 <a id="apps-game-web-src-vite-env-d-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/src/vite-env.d.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/src/vite-env.d.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/src/vite-env.d.ts
 Bytes: 71  Lines: 5  Modified: 2025-08-11T11:15:54Z
 SHA256: 425f8e173432a5d7ab4efd416e50a51c6624e68ae5d54f2889d6d43fafcc8eed   Language: typescript   Role: source
 Summary: 
@@ -6921,7 +6922,7 @@ declare module '*.png' {
 <a id="apps-game-web-tsconfig-json"></a>
 ===== FILE START =====
 Path: apps/game-web/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/tsconfig.json
 Bytes: 521  Lines: 28  Modified: 2025-08-30T23:03:38Z
 SHA256: 917b8e41972ad08e42abc0cef27f01aeb11307e5953b975fd1c0d9c2cf3ffd1e   Language: json   Role: source
 Summary: 
@@ -6964,7 +6965,7 @@ Summary:
 <a id="apps-game-web-tsconfig-tsbuildinfo"></a>
 ===== FILE START =====
 Path: apps/game-web/tsconfig.tsbuildinfo
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/tsconfig.tsbuildinfo
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/tsconfig.tsbuildinfo
 Bytes: 35948  Lines: 0  Modified: 2025-08-11T22:25:00Z
 SHA256: 7f69f02c63d8149df954dd6b29db824178859127d7356f0293b8f682e698d728   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -6979,7 +6980,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="apps-game-web-vite-config-js"></a>
 ===== FILE START =====
 Path: apps/game-web/vite.config.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/vite.config.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/vite.config.js
 Bytes: 257  Lines: 11  Modified: 2025-08-12T00:01:49Z
 SHA256: c6addbdf18c954e4b82a75e179a902a68dcef57fcd9d490849595e85403b7253   Language: javascript   Role: source
 Summary: 
@@ -7005,7 +7006,7 @@ export default defineConfig({
 <a id="apps-game-web-vite-config-ts"></a>
 ===== FILE START =====
 Path: apps/game-web/vite.config.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/game-web/vite.config.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/game-web/vite.config.ts
 Bytes: 503  Lines: 18  Modified: 2025-08-30T23:27:46Z
 SHA256: 008a0bb4ce037517f7cdcddce2bfc4e34b03490b89e443bc072f53a85132d93e   Language: typescript   Role: source
 Summary: 
@@ -7038,7 +7039,7 @@ export default defineConfig({
 <a id="apps-towns-bot-src-auth-jwt-js"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/auth/jwt.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/auth/jwt.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/auth/jwt.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -7054,7 +7055,7 @@ Summary:
 <a id="apps-towns-bot-src-auth-jwt-ts"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/auth/jwt.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/auth/jwt.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/auth/jwt.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -7069,7 +7070,7 @@ Summary:
 <a id="apps-towns-bot-src-bot-js"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/bot.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/bot.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/bot.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -7085,7 +7086,7 @@ Summary:
 <a id="apps-towns-bot-src-bot-ts"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/bot.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/bot.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/bot.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -7100,7 +7101,7 @@ Summary:
 <a id="apps-towns-bot-src-handlers-whoami-js"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/handlers/whoami.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/handlers/whoami.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/handlers/whoami.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -7116,7 +7117,7 @@ Summary:
 <a id="apps-towns-bot-src-handlers-whoami-ts"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/handlers/whoami.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/handlers/whoami.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/handlers/whoami.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -7131,7 +7132,7 @@ Summary:
 <a id="apps-towns-bot-src-handlers-zoneevents-js"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/handlers/zoneEvents.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/handlers/zoneEvents.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/handlers/zoneEvents.js
 Bytes: 14  Lines: 1  Modified: 2025-08-11T21:04:16Z
 SHA256: 77f5eec38c5ef075e11892244ccf9e249d82937e07401398df98319568775a17   Language: javascript   Role: source
 Summary: 
@@ -7147,7 +7148,7 @@ Summary:
 <a id="apps-towns-bot-src-handlers-zoneevents-ts"></a>
 ===== FILE START =====
 Path: apps/towns-bot/src/handlers/zoneEvents.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/apps/towns-bot/src/handlers/zoneEvents.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/apps/towns-bot/src/handlers/zoneEvents.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -7162,7 +7163,7 @@ Summary:
 <a id="infra-db-schema-sql"></a>
 ===== FILE START =====
 Path: infra/db/schema.sql
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/infra/db/schema.sql
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/infra/db/schema.sql
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -7177,7 +7178,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="infra-db-seed-sql"></a>
 ===== FILE START =====
 Path: infra/db/seed.sql
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/infra/db/seed.sql
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/infra/db/seed.sql
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -7192,7 +7193,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="infra-docker-dockerfile"></a>
 ===== FILE START =====
 Path: infra/docker/Dockerfile
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/infra/docker/Dockerfile
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/infra/docker/Dockerfile
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: dockerfile   Role: source
 Summary: 
@@ -7207,7 +7208,7 @@ Summary:
 <a id="infra-k8s-deployment-yaml"></a>
 ===== FILE START =====
 Path: infra/k8s/deployment.yaml
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/infra/k8s/deployment.yaml
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/infra/k8s/deployment.yaml
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: yaml   Role: source
 Summary: 
@@ -7222,7 +7223,7 @@ Summary:
 <a id="package-lock-json"></a>
 ===== FILE START =====
 Path: package-lock.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/package-lock.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/package-lock.json
 Bytes: 82735  Lines: 2516  Modified: 2025-09-06T15:20:59Z
 SHA256: ab65a86707cff7bca8963cba205b8c206e404f63cdc1c594fb447922ed678df8   Language: json   Role: source
 Summary: Truncated preview; file exceeds 999 lines.
@@ -7908,9 +7909,9 @@ Summary: Truncated preview; file exceeds 999 lines.
 <a id="package-json"></a>
 ===== FILE START =====
 Path: package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/package.json
-Bytes: 3321  Lines: 52  Modified: 2025-09-06T16:45:41Z
-SHA256: 3edba3a69734f8770a08daf76b7a01ea2dce6ca81c4d6ade6499c3daec519564   Language: json   Role: source
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/package.json
+Bytes: 3952  Lines: 54  Modified: 2025-09-06T17:02:38Z
+SHA256: 65b597df18a61053a6837ec573d269209f97a060ad0e045260225870a63242de   Language: json   Role: source
 Summary: 
 
 -----8<----- CONTENT -----8<-----
@@ -7938,18 +7939,20 @@ Summary:
     "backup": "workflow-tools/backupr/backup.sh --wizard",
     "backup:quick": "ROOT_DIR=$(pwd) BACKUP_ROOT=\"$HOME/backups/warboy\" REPO_NAME=\"warboy\" workflow-tools/backupr/backup.sh",
     "backup:dry": "DRY_RUN=1 workflow-tools/backupr/backup.sh --wizard",
-    "digestr": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
+    "digestr": "bash --noprofile --norc -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
     "digestr:fast": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && MAX_LINES=800 HEAD_TAKE=300 TAIL_TAKE=300 ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\" -X \"**/dist,**/.turbo,**/.cache,**/node_modules/**\"'",
     "digestr:full": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && MAX_LINES=2000 HEAD_TAKE=700 TAIL_TAKE=700 ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
     "digestr:no-git": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh --no-git -o \"$ROOT/PROJECT_BUNDLE.md\"'",
     "digestr:when": "stat -c '%y' PROJECT_BUNDLE.md",
     "digestr:tree": "bash --noprofile --norc -lc 'ROOT=$(pwd); npm run -s digestr && printf \"\\n# Repo Tree\\n\\n\" >> \"$ROOT/PROJECT_BUNDLE.md\" && printf '\\''```text\\n'\\'' >> \"$ROOT/PROJECT_BUNDLE.md\" && tree -L 3 -a --dirsfirst >> \"$ROOT/PROJECT_BUNDLE.md\" && printf '\\''\\n```\\n'\\'' >> \"$ROOT/PROJECT_BUNDLE.md\"'",
-    "digestr:check": "bash -lc 'B=$(stat -c %Y PROJECT_BUNDLE.md 2>/dev/null || echo 0); C=$(git log -1 --format=%ct 2>/dev/null || echo 0); if [ \"$B\" -lt \"$C\" ]; then echo \"STALE: bundle older than latest commit\"; exit 1; else echo \"FRESH: bundle is up-to-date vs latest commit\"; fi'",
+    "digestr:check": "bash --noprofile --norc -lc 'BH=$(git log -1 --format=%ct 2>/dev/null || echo 0); BB=$(git log -1 --format=%ct -- PROJECT_BUNDLE.md 2>/dev/null || echo 0); if [ \"$BB\" -eq 0 ]; then BM=$(stat -c %Y PROJECT_BUNDLE.md 2>/dev/null || echo 0); if [ \"$BM\" -lt \"$BH\" ]; then echo \"STALE: uncommitted bundle older than HEAD\"; exit 1; else echo \"FRESH: uncommitted bundle newer than or equal to HEAD\"; fi; else if [ \"$BB\" -lt \"$BH\" ]; then echo \"STALE: bundle last committed before HEAD\"; exit 1; else echo \"FRESH: bundle commit matches HEAD\"; fi; fi'",
     "bundlr": "npm run digestr",
     "bundlr:tree": "npm run digestr:tree",
     "backup:restore:latest": "LATEST=$(ls -1t $HOME/backups/warboy/warboy-*.tar.gz | head -1) && DEST=$HOME/Desktop/warboy-restore-latest && mkdir -p \"$DEST\" && tar -xzf \"$LATEST\" -C \"$DEST\" && echo Restored to: \"$DEST/$(basename \"$LATEST\" .tar.gz)\"",
     "gitready": "bash --noprofile --norc workflow-tools/git/gitready.sh",
-    "gitready:commit": "bash --noprofile --norc workflow-tools/git/gitready.sh --regen --message \"docs: modern README; chore: digestr+tree; ops: backup helpers\""
+    "gitready:commit": "bash --noprofile --norc workflow-tools/git/gitready.sh --regen --message \"docs: modern README; chore: digestr+tree; ops: backup helpers\"",
+    "backup:list": "ls -1lt $HOME/backups/warboy/ | head -20",
+    "digestr:check:debug": "bash --noprofile --norc -lc 'echo BH=$(git log -1 --format=%ct 2>/dev/null || echo 0); echo BB=$(git log -1 --format=%ct -- PROJECT_BUNDLE.md 2>/dev/null || echo 0); echo BM=$(stat -c %Y PROJECT_BUNDLE.md 2>/dev/null || echo 0)'"
   },
   "devDependencies": {
     "@types/react": "^19.1.9",
@@ -7975,7 +7978,7 @@ Summary:
 <a id="packages-assets-src-atlas-ts"></a>
 ===== FILE START =====
 Path: packages/assets/src/atlas.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/assets/src/atlas.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/assets/src/atlas.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -7990,7 +7993,7 @@ Summary:
 <a id="packages-assets-src-licensing-md"></a>
 ===== FILE START =====
 Path: packages/assets/src/licensing.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/assets/src/licensing.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/assets/src/licensing.md
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: md   Role: source
 Summary: 
@@ -8005,7 +8008,7 @@ Summary:
 <a id="packages-assets-src-tiles-ts"></a>
 ===== FILE START =====
 Path: packages/assets/src/tiles.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/assets/src/tiles.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/assets/src/tiles.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -8020,7 +8023,7 @@ Summary:
 <a id="packages-chat-readme-md"></a>
 ===== FILE START =====
 Path: packages/chat/README.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/chat/README.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/chat/README.md
 Bytes: 2689  Lines: 112  Modified: 2025-08-30T19:31:29Z
 SHA256: fabc54ffbf8a3e4ef34c57f8f49df75a9fa7fa0fee640b296ecafcce232a920f   Language: md   Role: source
 Summary: 
@@ -8147,7 +8150,7 @@ _Create these files:_
 <a id="packages-chat-package-json"></a>
 ===== FILE START =====
 Path: packages/chat/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/chat/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/chat/package.json
 Bytes: 350  Lines: 18  Modified: 2025-08-31T00:00:28Z
 SHA256: 286e71ec599384cc3d54586ff1d81439ca250b4db74038a51a4233d7b8ba768a   Language: json   Role: source
 Summary: 
@@ -8180,7 +8183,7 @@ Summary:
 <a id="packages-chat-src-client-ts"></a>
 ===== FILE START =====
 Path: packages/chat/src/client.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/chat/src/client.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/chat/src/client.ts
 Bytes: 833  Lines: 30  Modified: 2025-08-11T20:39:51Z
 SHA256: 9fdfc7d435fa6381f37b72c6a1e31cce3801bc64cdbb5f538639cbf4fa948be9   Language: typescript   Role: source
 Summary: 
@@ -8225,7 +8228,7 @@ export class ChatClient {
 <a id="packages-chat-src-index-ts"></a>
 ===== FILE START =====
 Path: packages/chat/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/chat/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/chat/src/index.ts
 Bytes: 58  Lines: 3  Modified: 2025-08-11T20:40:39Z
 SHA256: 690a0109cbfbfb031b11fb9d13e3d2edffec52fc970233d52af77b33c076e622   Language: typescript   Role: source
 Summary: 
@@ -8243,7 +8246,7 @@ export * from "./client.js";
 <a id="packages-chat-src-types-ts"></a>
 ===== FILE START =====
 Path: packages/chat/src/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/chat/src/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/chat/src/types.ts
 Bytes: 2441  Lines: 101  Modified: 2025-08-29T00:02:22Z
 SHA256: 7547d2230c44d4d46f068ee68e71376a76060f7a64a80f757a58da9101a9a64f   Language: typescript   Role: source
 Summary: 
@@ -8359,7 +8362,7 @@ export function isReaction(f: any): f is S2C_Reaction {
 <a id="packages-chat-tsconfig-json"></a>
 ===== FILE START =====
 Path: packages/chat/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/chat/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/chat/tsconfig.json
 Bytes: 537  Lines: 24  Modified: 2025-08-30T23:28:25Z
 SHA256: 028d8d7f64e08d03712569b1bbad4ec2eac070faf6fd3679768e78327f5f0619   Language: json   Role: source
 Summary: 
@@ -8398,7 +8401,7 @@ Summary:
 <a id="packages-chat-tsconfig-tsbuildinfo"></a>
 ===== FILE START =====
 Path: packages/chat/tsconfig.tsbuildinfo
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/chat/tsconfig.tsbuildinfo
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/chat/tsconfig.tsbuildinfo
 Bytes: 30461  Lines: 0  Modified: 2025-09-06T15:21:03Z
 SHA256: 163669b2cb4c26124b77d52b3a5f94d6c97099d6abd83de34724d0c51e7f19e1   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -8413,7 +8416,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="packages-core-src-battle-engine-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/battle/engine.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/battle/engine.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/battle/engine.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -8428,7 +8431,7 @@ Summary:
 <a id="packages-core-src-capture-engine-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/capture/engine.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/capture/engine.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/capture/engine.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -8443,7 +8446,7 @@ Summary:
 <a id="packages-core-src-economy-convert-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/economy/convert.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/economy/convert.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/economy/convert.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -8458,7 +8461,7 @@ Summary:
 <a id="packages-core-src-index-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/index.ts
 Bytes: 76  Lines: 3  Modified: 2025-08-10T00:42:28Z
 SHA256: e3263f461ef70cbe9af6eab7224680beca11e885c8616ca8b4f9763823322b93   Language: typescript   Role: source
 Summary: 
@@ -8476,7 +8479,7 @@ export * from './worldgen';
 <a id="packages-core-src-rng-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/rng.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/rng.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/rng.ts
 Bytes: 1136  Lines: 36  Modified: 2025-08-10T00:28:16Z
 SHA256: fc551d9fa5fd080a72cd414d8a710d07b7a3d67565549c06107d92307fff84d7   Language: typescript   Role: source
 Summary: 
@@ -8527,7 +8530,7 @@ export function valueNoise2D(seed: number, x: number, y: number) {
 <a id="packages-core-src-types-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/types.ts
 Bytes: 178  Lines: 6  Modified: 2025-08-10T00:28:36Z
 SHA256: 5207b4dad9f787396e3c5d12a8917643f69d531e62cb28a92e8af96d238ec523   Language: typescript   Role: source
 Summary: 
@@ -8548,7 +8551,7 @@ export interface Chunk {
 <a id="packages-core-src-validation-schemas-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/validation/schemas.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/validation/schemas.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/validation/schemas.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -8563,7 +8566,7 @@ Summary:
 <a id="packages-core-src-worldgen-ts"></a>
 ===== FILE START =====
 Path: packages/core/src/worldgen.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/core/src/worldgen.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/core/src/worldgen.ts
 Bytes: 820  Lines: 27  Modified: 2025-08-10T00:39:31Z
 SHA256: fed39365c5811be03dc017a180738e64190e9d8c11e821e7f2a7d5045abf2187   Language: typescript   Role: source
 Summary: 
@@ -8605,7 +8608,7 @@ export function genChunk(worldSeed: number, cx: number, cy: number): Chunk {
 <a id="packages-net-package-json"></a>
 ===== FILE START =====
 Path: packages/net/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/package.json
 Bytes: 349  Lines: 18  Modified: 2025-08-31T00:00:28Z
 SHA256: 17829f44bd5319742b1230e8c1aa6ac96af6ba7d04b776bf5958200f23d326d6   Language: json   Role: source
 Summary: 
@@ -8638,7 +8641,7 @@ Summary:
 <a id="packages-net-src-encode-ts"></a>
 ===== FILE START =====
 Path: packages/net/src/encode.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/src/encode.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/src/encode.ts
 Bytes: 521  Lines: 14  Modified: 2025-08-10T00:31:10Z
 SHA256: f18a9f06c4fdb04702e63d5c6308e484bee776bf96796a3e1f37fc35dfc2d45b   Language: typescript   Role: source
 Summary: 
@@ -8667,7 +8670,7 @@ export function b64ToU8(b64: string): Uint8Array {
 <a id="packages-net-src-index-ts"></a>
 ===== FILE START =====
 Path: packages/net/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/src/index.ts
 Bytes: 90  Lines: 4  Modified: 2025-08-29T00:16:08Z
 SHA256: 823f724f466a3dd06a9507190f8838911b6f2fd59ada1fb4e7e2ffb326a82860   Language: typescript   Role: source
 Summary: 
@@ -8686,7 +8689,7 @@ export * from "./encode.js";
 <a id="packages-net-src-messages-ts"></a>
 ===== FILE START =====
 Path: packages/net/src/messages.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/src/messages.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/src/messages.ts
 Bytes: 730  Lines: 20  Modified: 2025-08-10T00:40:54Z
 SHA256: ba67c4044148b928fa7e637df1fcbf89f1b4db3cb140c2a22f4d6710b33d060a   Language: typescript   Role: source
 Summary: 
@@ -8721,7 +8724,7 @@ export type S2C = ServerWelcome | ServerSnapshot | ServerChunkData;
 <a id="packages-net-src-rate-ts"></a>
 ===== FILE START =====
 Path: packages/net/src/rate.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/src/rate.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/src/rate.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -8736,7 +8739,7 @@ Summary:
 <a id="packages-net-src-schema-ts"></a>
 ===== FILE START =====
 Path: packages/net/src/schema.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/src/schema.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/src/schema.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-09T23:30:21Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -8751,7 +8754,7 @@ Summary:
 <a id="packages-net-tsconfig-json"></a>
 ===== FILE START =====
 Path: packages/net/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/tsconfig.json
 Bytes: 537  Lines: 24  Modified: 2025-08-30T23:28:25Z
 SHA256: 028d8d7f64e08d03712569b1bbad4ec2eac070faf6fd3679768e78327f5f0619   Language: json   Role: source
 Summary: 
@@ -8790,7 +8793,7 @@ Summary:
 <a id="packages-net-tsconfig-tsbuildinfo"></a>
 ===== FILE START =====
 Path: packages/net/tsconfig.tsbuildinfo
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/net/tsconfig.tsbuildinfo
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/net/tsconfig.tsbuildinfo
 Bytes: 30858  Lines: 0  Modified: 2025-09-06T15:21:03Z
 SHA256: 09038989c7ead242e2eca522de67781f000790187a56fe91aa7ba51e0883c546   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -8805,7 +8808,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="packages-overlays-gitignore"></a>
 ===== FILE START =====
 Path: packages/overlays/.gitignore
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/overlays/.gitignore
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/overlays/.gitignore
 Bytes: 48  Lines: 4  Modified: 2025-08-30T14:54:12Z
 SHA256: 03e9ca0d5c6f33cc820544bfc632330fce09ca0766d749f54d22416f438371a8   Language: plain   Role: source
 Summary: 
@@ -8824,7 +8827,7 @@ src/**/*.d.ts
 <a id="packages-overlays-package-json"></a>
 ===== FILE START =====
 Path: packages/overlays/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/overlays/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/overlays/package.json
 Bytes: 354  Lines: 18  Modified: 2025-08-31T00:00:28Z
 SHA256: 0c5e03b376dbbd9a6ee3eb9036df30ae2f06fa01f927e2f94e904c1fa19d699a   Language: json   Role: source
 Summary: 
@@ -8857,7 +8860,7 @@ Summary:
 <a id="packages-overlays-src-apply-ts"></a>
 ===== FILE START =====
 Path: packages/overlays/src/apply.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/overlays/src/apply.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/overlays/src/apply.ts
 Bytes: 315  Lines: 9  Modified: 2025-08-11T00:12:28Z
 SHA256: a8681e9fca02a6967e8734fc27fc1e7d94973d911b1d8ae36afbbae9a202b4f4   Language: typescript   Role: source
 Summary: 
@@ -8881,7 +8884,7 @@ export function applyTilePatches(base: Uint8Array, w:number, h:number, patches: 
 <a id="packages-overlays-src-index-ts"></a>
 ===== FILE START =====
 Path: packages/overlays/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/overlays/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/overlays/src/index.ts
 Bytes: 193  Lines: 5  Modified: 2025-08-30T15:00:08Z
 SHA256: 78e858a908f857041b917d1ec93c7cc0d630d321c5b1a80c2786af82688fc87d   Language: typescript   Role: source
 Summary: 
@@ -8901,7 +8904,7 @@ export type { TilePatch } from './apply.js';   // <-- add this
 <a id="packages-overlays-src-types-ts"></a>
 ===== FILE START =====
 Path: packages/overlays/src/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/overlays/src/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/overlays/src/types.ts
 Bytes: 313  Lines: 5  Modified: 2025-08-11T00:11:49Z
 SHA256: 19f19dacbf1d01e5ab9b133906c72a4ca8bc09fcf2fb47323c33413e77f89785   Language: typescript   Role: source
 Summary: 
@@ -8921,7 +8924,7 @@ export type OverlayEvent =
 <a id="packages-overlays-tsconfig-json"></a>
 ===== FILE START =====
 Path: packages/overlays/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/overlays/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/overlays/tsconfig.json
 Bytes: 537  Lines: 24  Modified: 2025-08-30T23:28:25Z
 SHA256: 028d8d7f64e08d03712569b1bbad4ec2eac070faf6fd3679768e78327f5f0619   Language: json   Role: source
 Summary: 
@@ -8960,7 +8963,7 @@ Summary:
 <a id="packages-overlays-tsconfig-tsbuildinfo"></a>
 ===== FILE START =====
 Path: packages/overlays/tsconfig.tsbuildinfo
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/overlays/tsconfig.tsbuildinfo
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/overlays/tsconfig.tsbuildinfo
 Bytes: 30447  Lines: 0  Modified: 2025-09-06T15:21:03Z
 SHA256: 2f7cd6f853c73db60582588454643e51522f274f39ce7ffa1a99b56364547631   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -8975,7 +8978,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="packages-trolls-package-json"></a>
 ===== FILE START =====
 Path: packages/trolls/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/trolls/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/trolls/package.json
 Bytes: 59  Lines: 1  Modified: 2025-08-10T23:51:58Z
 SHA256: 61fd51cc4c49f02c4c44d1af487f5b2e12665965ca4d361abbd76fb961302477   Language: json   Role: source
 Summary: 
@@ -8991,7 +8994,7 @@ Summary:
 <a id="packages-trolls-src-readme-md"></a>
 ===== FILE START =====
 Path: packages/trolls/src/README.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/trolls/src/README.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/trolls/src/README.md
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: md   Role: source
 Summary: 
@@ -9006,7 +9009,7 @@ Summary:
 <a id="packages-trolls-src-index-ts"></a>
 ===== FILE START =====
 Path: packages/trolls/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/trolls/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/trolls/src/index.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -9021,7 +9024,7 @@ Summary:
 <a id="packages-trolls-src-schema-ts"></a>
 ===== FILE START =====
 Path: packages/trolls/src/schema.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/trolls/src/schema.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/trolls/src/schema.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -9036,7 +9039,7 @@ Summary:
 <a id="packages-trolls-src-types-ts"></a>
 ===== FILE START =====
 Path: packages/trolls/src/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/trolls/src/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/trolls/src/types.ts
 Bytes: 0  Lines: 0  Modified: 2025-08-10T23:51:58Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: typescript   Role: source
 Summary: 
@@ -9051,7 +9054,7 @@ Summary:
 <a id="packages-trolls-tsconfig-json"></a>
 ===== FILE START =====
 Path: packages/trolls/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/trolls/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/trolls/tsconfig.json
 Bytes: 2  Lines: 0  Modified: 2025-08-11T23:03:28Z
 SHA256: 44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a   Language: json   Role: source
 Summary: 
@@ -9066,7 +9069,7 @@ Summary:
 <a id="packages-warboys-data-package-json"></a>
 ===== FILE START =====
 Path: packages/warboys-data/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/package.json
 Bytes: 378  Lines: 17  Modified: 2025-09-01T20:02:50Z
 SHA256: 2ab25b6163984587c936d7d2c3e5103877c3c7630f3e272f70df892c04cec498   Language: json   Role: source
 Summary: 
@@ -9098,7 +9101,7 @@ Summary:
 <a id="packages-warboys-data-scripts-after-build-mjs"></a>
 ===== FILE START =====
 Path: packages/warboys-data/scripts/after-build.mjs
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/scripts/after-build.mjs
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/scripts/after-build.mjs
 Bytes: 885  Lines: 32  Modified: 2025-09-01T18:15:14Z
 SHA256: b751a31e8a21ee147decaab782b82ce56cbaeff0b0d0d2e0bf65d67de2164b35   Language: javascript   Role: source
 Summary: 
@@ -9145,7 +9148,7 @@ console.log('[warboys-data] copied schema/ and species/ into dist/');
 <a id="packages-warboys-data-scripts-validate-mjs"></a>
 ===== FILE START =====
 Path: packages/warboys-data/scripts/validate.mjs
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/scripts/validate.mjs
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/scripts/validate.mjs
 Bytes: 0  Lines: 0  Modified: 2025-09-01T15:05:50Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: javascript   Role: source
 Summary: 
@@ -9160,7 +9163,7 @@ Summary:
 <a id="packages-warboys-data-src-index-ts"></a>
 ===== FILE START =====
 Path: packages/warboys-data/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/src/index.ts
 Bytes: 1350  Lines: 44  Modified: 2025-09-01T23:40:56Z
 SHA256: b5b6b81ea4d829cee6b47ad9679e1f1750c2572bddaadfe3920a42573a5d68b6   Language: typescript   Role: source
 Summary: 
@@ -9219,7 +9222,7 @@ export const ALL_SPECIES: Species[] = Object.values(SPECIES_BY_ID);
 <a id="packages-warboys-data-src-schema-moves-schema-json"></a>
 ===== FILE START =====
 Path: packages/warboys-data/src/schema/moves.schema.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/src/schema/moves.schema.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/src/schema/moves.schema.json
 Bytes: 0  Lines: 0  Modified: 2025-09-01T15:05:50Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: json   Role: source
 Summary: 
@@ -9234,7 +9237,7 @@ Summary:
 <a id="packages-warboys-data-src-schema-species-schema-ts"></a>
 ===== FILE START =====
 Path: packages/warboys-data/src/schema/species.schema.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/src/schema/species.schema.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/src/schema/species.schema.ts
 Bytes: 2628  Lines: 93  Modified: 2025-09-01T23:40:32Z
 SHA256: b40a2229766f68b7c68e85ac2e9cc11e600f9f8fdec0c753496d692b572385c7   Language: typescript   Role: source
 Summary: 
@@ -9342,7 +9345,7 @@ export const speciesSchema = {
 <a id="packages-warboys-data-src-species-wb-001-embercub-yaml"></a>
 ===== FILE START =====
 Path: packages/warboys-data/src/species/WB-001_embercub.yaml
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/src/species/WB-001_embercub.yaml
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/src/species/WB-001_embercub.yaml
 Bytes: 359  Lines: 14  Modified: 2025-09-01T20:43:30Z
 SHA256: 15d3e9b5e63d085d6403ebb20f7e0eaf79902e75f8990b5efe4df98c7f04d183   Language: yaml   Role: source
 Summary: 
@@ -9371,7 +9374,7 @@ flavorText: "A cub that sparks when excited. Leaves warm pawprints."
 <a id="packages-warboys-data-src-species-wb-002-ferrugrim-yaml"></a>
 ===== FILE START =====
 Path: packages/warboys-data/src/species/WB-002_ferrugrim.yaml
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/src/species/WB-002_ferrugrim.yaml
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/src/species/WB-002_ferrugrim.yaml
 Bytes: 394  Lines: 17  Modified: 2025-09-01T15:07:37Z
 SHA256: a1aa3999c6fa618e212cf5fcafdd575070d1ff8d3fba04e485ff7c61b6fa95f0   Language: yaml   Role: source
 Summary: 
@@ -9403,7 +9406,7 @@ art:
 <a id="packages-warboys-data-src-species-wb-003-lumenfin-yaml"></a>
 ===== FILE START =====
 Path: packages/warboys-data/src/species/WB-003_lumenfin.yaml
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/src/species/WB-003_lumenfin.yaml
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/src/species/WB-003_lumenfin.yaml
 Bytes: 0  Lines: 0  Modified: 2025-09-01T15:05:50Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: yaml   Role: source
 Summary: 
@@ -9418,7 +9421,7 @@ Summary:
 <a id="packages-warboys-data-src-types-index-ts"></a>
 ===== FILE START =====
 Path: packages/warboys-data/src/types/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/src/types/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/src/types/index.ts
 Bytes: 1225  Lines: 50  Modified: 2025-09-01T20:41:17Z
 SHA256: bf5b964b4f8ee0d81a3f4435954dd5d6bb058b713f4c94c5d12b783b4b581419   Language: typescript   Role: source
 Summary: 
@@ -9483,7 +9486,7 @@ export type Species = {
 <a id="packages-warboys-data-tsconfig-json"></a>
 ===== FILE START =====
 Path: packages/warboys-data/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/tsconfig.json
 Bytes: 494  Lines: 26  Modified: 2025-09-01T20:02:28Z
 SHA256: f7898acd762c4537d94a97b8de851eda81ee0405253335a888c8ffdeef98e2f6   Language: json   Role: source
 Summary: 
@@ -9524,7 +9527,7 @@ Summary:
 <a id="packages-warboys-data-tsconfig-tsbuildinfo"></a>
 ===== FILE START =====
 Path: packages/warboys-data/tsconfig.tsbuildinfo
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/warboys-data/tsconfig.tsbuildinfo
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/warboys-data/tsconfig.tsbuildinfo
 Bytes: 46659  Lines: 0  Modified: 2025-09-06T15:21:03Z
 SHA256: 9966087780b73437d1eb4d023a50e7ba42bc51fa6ab5314f1fbc44361a754f13   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -9539,7 +9542,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="packages-world-package-json"></a>
 ===== FILE START =====
 Path: packages/world/package.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/package.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/package.json
 Bytes: 340  Lines: 17  Modified: 2025-08-31T00:00:28Z
 SHA256: 5488869616ebbef2431d41b6db43e54da8c7f1958373d3536c987de0d13b0355   Language: json   Role: source
 Summary: 
@@ -9571,7 +9574,7 @@ Summary:
 <a id="packages-world-src-aoi-ts"></a>
 ===== FILE START =====
 Path: packages/world/src/aoi.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/src/aoi.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/src/aoi.ts
 Bytes: 2011  Lines: 72  Modified: 2025-08-30T22:15:25Z
 SHA256: e1b9b5ea2d048d56d0bcbb1f9274526f824a2bb47b5cd1293518705f15fc2d04   Language: typescript   Role: source
 Summary: 
@@ -9658,7 +9661,7 @@ export function directionalAOI(
 <a id="packages-world-src-codec-ts"></a>
 ===== FILE START =====
 Path: packages/world/src/codec.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/src/codec.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/src/codec.ts
 Bytes: 521  Lines: 12  Modified: 2025-08-30T22:15:25Z
 SHA256: e38ebc4798e9835834b27a20b8a3718500ba6ffde3acdd4ad62290c58237cc49   Language: typescript   Role: source
 Summary: 
@@ -9685,7 +9688,7 @@ export function b64ToU8(b64: string): Uint8Array {
 <a id="packages-world-src-const-ts"></a>
 ===== FILE START =====
 Path: packages/world/src/const.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/src/const.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/src/const.ts
 Bytes: 237  Lines: 11  Modified: 2025-08-30T22:15:25Z
 SHA256: 5ec4f44655ba4b9d93983a2f2da4917e2c1e82c3794523c259a85d6b26a45ea0   Language: typescript   Role: source
 Summary: 
@@ -9711,7 +9714,7 @@ export type TileId = typeof TILE[keyof typeof TILE]; // ← ensure this exists a
 <a id="packages-world-src-index-ts"></a>
 ===== FILE START =====
 Path: packages/world/src/index.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/src/index.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/src/index.ts
 Bytes: 380  Lines: 12  Modified: 2025-08-31T01:10:45Z
 SHA256: 280be537f95f5f5da54409b109e544963690fe5ad4a41a9ec8ca6f71bd50177a   Language: typescript   Role: source
 Summary: 
@@ -9738,7 +9741,7 @@ export { u8ToB64, b64ToU8 } from './codec.ts';
 <a id="packages-world-src-types-ts"></a>
 ===== FILE START =====
 Path: packages/world/src/types.ts
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/src/types.ts
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/src/types.ts
 Bytes: 584  Lines: 19  Modified: 2025-08-30T22:15:25Z
 SHA256: 7c7e72cd663b35e6df24c9d304eae4604895db2338abaf082e953156d16acf7d   Language: typescript   Role: source
 Summary: 
@@ -9772,7 +9775,7 @@ export type { TileId };
 <a id="packages-world-tsconfig-json"></a>
 ===== FILE START =====
 Path: packages/world/tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/tsconfig.json
 Bytes: 582  Lines: 26  Modified: 2025-08-31T01:30:05Z
 SHA256: f29338c146d8f42621bee4ccc2dbfd03be56a65c7f1857d9d5fa7bbcb9589ad3   Language: json   Role: source
 Summary: 
@@ -9813,7 +9816,7 @@ Summary:
 <a id="packages-world-tsconfig-tsbuildinfo"></a>
 ===== FILE START =====
 Path: packages/world/tsconfig.tsbuildinfo
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/packages/world/tsconfig.tsbuildinfo
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/packages/world/tsconfig.tsbuildinfo
 Bytes: 33147  Lines: 0  Modified: 2025-09-06T15:21:03Z
 SHA256: 51cc7e83fb7f84d89f4ecea110ba0bd5fe2d533bbfd3f9b5f6c6f3c02cb414a1   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -9828,7 +9831,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="tsconfig-base-json"></a>
 ===== FILE START =====
 Path: tsconfig.base.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/tsconfig.base.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/tsconfig.base.json
 Bytes: 259  Lines: 11  Modified: 2025-08-30T23:57:13Z
 SHA256: 3f57bd555e465449ee5eaff7501e88a114935546b5d3e64d4b24584155d49623   Language: json   Role: source
 Summary: 
@@ -9854,7 +9857,7 @@ Summary:
 <a id="tsconfig-json"></a>
 ===== FILE START =====
 Path: tsconfig.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/tsconfig.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/tsconfig.json
 Bytes: 657  Lines: 37  Modified: 2025-08-30T23:16:43Z
 SHA256: 9936cae4e4f3d989a0c0cb759c5219cbde7ce376f4f549ce3d15931c7a32f73c   Language: json   Role: source
 Summary: 
@@ -9906,7 +9909,7 @@ Summary:
 <a id="turbo-json"></a>
 ===== FILE START =====
 Path: turbo.json
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/turbo.json
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/turbo.json
 Bytes: 335  Lines: 19  Modified: 2025-09-01T01:25:40Z
 SHA256: daf11e3a557bf9943fd4b9862a9fae9fe29ea2c0c272098a2039d18be31d11e2   Language: json   Role: source
 Summary: 
@@ -9940,7 +9943,7 @@ Summary:
 <a id="workflow-tools-backupr-readme-md"></a>
 ===== FILE START =====
 Path: workflow-tools/backupr/README.md
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/backupr/README.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/backupr/README.md
 Bytes: 1151  Lines: 23  Modified: 2025-09-04T21:26:53Z
 SHA256: 6847332032df1bdf0da831925bb19a2a7a48256cdc7f10a4bd3e9297376b2f35   Language: md   Role: source
 Summary: 
@@ -9978,7 +9981,7 @@ BACKUP_PRUNE_LEGACY → 1 means auto-delete the old warboy backup directory if i
 <a id="workflow-tools-backupr-backup-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/backupr/backup.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/backupr/backup.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/backupr/backup.sh
 Bytes: 7635  Lines: 230  Modified: 2025-09-04T21:11:57Z
 SHA256: bfd6688dc62e4973a5482f3a3e4acd2fb1eaa38bd4301374f882a947eed6879b   Language: bash   Role: source
 Summary: 
@@ -10223,7 +10226,7 @@ fi
 <a id="workflow-tools-bootstrap-workspaces-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/bootstrap-workspaces.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/bootstrap-workspaces.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/bootstrap-workspaces.sh
 Bytes: 1230  Lines: 24  Modified: 2025-08-30T20:32:23Z
 SHA256: 0804c0a3efa7ae01d592c5de2ac1b2e408c15b02f4482515e652e629c8140239   Language: bash   Role: source
 Summary: 
@@ -10262,7 +10265,7 @@ echo "✅ bootstrap complete."
 <a id="workflow-tools-dev-all-bootstrap-fedora-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/bootstrap-fedora.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/bootstrap-fedora.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/bootstrap-fedora.sh
 Bytes: 486  Lines: 20  Modified: 2025-08-31T23:23:07Z
 SHA256: 5ffe78e3604b4bd89a7bffceef2e0d7fe320263304993475982111aaf895316f   Language: bash   Role: source
 Summary: 
@@ -10297,7 +10300,7 @@ echo "  ./workflow-tools/dev-all/dev-all.sh up"
 <a id="workflow-tools-dev-all-dev-all-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/dev-all.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/dev-all.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/dev-all.sh
 Bytes: 1717  Lines: 60  Modified: 2025-08-31T18:47:09Z
 SHA256: 76b4ce0cae485ad0a53cd92b114866d40a21f8f5c8565a0ced68b10c4623b0f5   Language: bash   Role: source
 Summary: 
@@ -10372,7 +10375,7 @@ esac
 <a id="workflow-tools-dev-all-helpers-build-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/build.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/build.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/build.sh
 Bytes: 1432  Lines: 57  Modified: 2025-09-01T04:06:26Z
 SHA256: d5246c6385d035b73497f8013be6c75061270ee1735a778eef5ce507d89f9837   Language: bash   Role: source
 Summary: 
@@ -10444,7 +10447,7 @@ echo "✔ build done"
 <a id="workflow-tools-dev-all-helpers-display-nice-display-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/display/nice_display.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/display/nice_display.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/display/nice_display.sh
 Bytes: 3144  Lines: 80  Modified: 2025-08-31T18:23:37Z
 SHA256: 8210d51198debe1acf83ec0af3159703013701ca06c4e7dea96266c1eef651f6   Language: bash   Role: source
 Summary: 
@@ -10539,7 +10542,7 @@ exec tmux attach -t "$HUD_SESSION"
 <a id="workflow-tools-dev-all-helpers-display-web-hud-html"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/display/web_hud.html
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/display/web_hud.html
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/display/web_hud.html
 Bytes: 2866  Lines: 75  Modified: 2025-08-31T22:09:38Z
 SHA256: 03ead7e2a2ee64be5baa3460d1125f0b8b383f61ccaf56b64f0eb5767e56dfca   Language: html   Role: source
 Summary: 
@@ -10629,7 +10632,7 @@ setInterval(loadOnce, 5000); // refresh every 5s
 <a id="workflow-tools-dev-all-helpers-display-web-hud-js"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/display/web_hud.js
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/display/web_hud.js
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/display/web_hud.js
 Bytes: 4407  Lines: 124  Modified: 2025-08-31T22:53:51Z
 SHA256: b7abb5c8a4d4f8dfe2b635dd1f4f4d653ee8b647004a0f05e3239c1910e42030   Language: javascript   Role: source
 Summary: 
@@ -10768,7 +10771,7 @@ server.listen(PORT, '127.0.0.1', () => {
 <a id="workflow-tools-dev-all-helpers-display-web-hud-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/display/web_hud.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/display/web_hud.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/display/web_hud.sh
 Bytes: 1429  Lines: 44  Modified: 2025-08-31T23:51:15Z
 SHA256: 38f9957357b22497dd3b18d8615f24b26f4adb808c38f36b8aa51b7c57417398   Language: bash   Role: source
 Summary: 
@@ -10827,7 +10830,7 @@ fi
 <a id="workflow-tools-dev-all-helpers-healthcheck-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/healthcheck.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/healthcheck.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/healthcheck.sh
 Bytes: 2343  Lines: 90  Modified: 2025-08-31T00:32:36Z
 SHA256: 788aa25b14b4bef5d7478da01d75ed591c890ad77b42cf81ab5d0733715dcd9e   Language: bash   Role: source
 Summary: 
@@ -10932,7 +10935,7 @@ echo "Done."
 <a id="workflow-tools-dev-all-helpers-hud-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/hud.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/hud.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/hud.sh
 Bytes: 6455  Lines: 165  Modified: 2025-08-31T23:51:12Z
 SHA256: bddf1afc8f50578d1ef263919e0b9abb11f76dd0bb2002e86b0bab7c78f544ac   Language: bash   Role: source
 Summary: 
@@ -11112,7 +11115,7 @@ exit 1
 <a id="workflow-tools-dev-all-helpers-launch-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/launch.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/launch.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/launch.sh
 Bytes: 5700  Lines: 182  Modified: 2025-08-31T23:51:12Z
 SHA256: e7016432e01e30996d7c0e90ed6a6a287ea721e3da7d975866f01e7b0cd24534   Language: bash   Role: source
 Summary: 
@@ -11309,7 +11312,7 @@ fi
 <a id="workflow-tools-dev-all-helpers-prep-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/prep.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/prep.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/prep.sh
 Bytes: 935  Lines: 28  Modified: 2025-08-31T23:51:12Z
 SHA256: 4c05d94ea89f0ec246a4de9f2588b5b4e7880230de53ce90b761d03a96bdc073   Language: bash   Role: source
 Summary: 
@@ -11352,7 +11355,7 @@ echo "✔ prep done"
 <a id="workflow-tools-dev-all-helpers-stop-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/stop.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/stop.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/stop.sh
 Bytes: 1313  Lines: 40  Modified: 2025-08-31T23:51:12Z
 SHA256: 4409308477fc270a3fe95154557b08ad8e3379a4c12d1d62a10150f37e65f28a   Language: bash   Role: source
 Summary: 
@@ -11407,7 +11410,7 @@ echo "✔ stopped"
 <a id="workflow-tools-dev-all-helpers-verify-turbo-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/helpers/verify-turbo.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/helpers/verify-turbo.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/helpers/verify-turbo.sh
 Bytes: 3417  Lines: 116  Modified: 2025-09-01T01:23:39Z
 SHA256: 28421ad26bb166bb40371481353f14ae4276acd6ada1ba8df2e3c30699ab09c8   Language: bash   Role: source
 Summary: 
@@ -11538,7 +11541,7 @@ echo "  npx turbo run build  # (uses cache; fast on repeat)"
 <a id="workflow-tools-dev-all-logs-web-hud-err-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/.web_hud.err.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/.web_hud.err.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/.web_hud.err.log
 Bytes: 0  Lines: 0  Modified: 2025-09-06T15:21:04Z
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11553,7 +11556,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-web-hud-out-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/.web_hud.out.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/.web_hud.out.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/.web_hud.out.log
 Bytes: 106  Lines: 1  Modified: 2025-09-06T15:21:04Z
 SHA256: b9a1912f5ff69be4f95fa670fe44f2ac5aa2b5efa93339625c1da4fcadd49504   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11568,7 +11571,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-web-hud-pid"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/.web_hud.pid
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/.web_hud.pid
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/.web_hud.pid
 Bytes: 7  Lines: 1  Modified: 2025-09-06T15:21:04Z
 SHA256: adcbdc1fd4e8486726e6bbee052febf7d6332289dd3be05ea19194cd453cd27a   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11583,7 +11586,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-admin-api-warboy-20250901-094629-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/admin-api.warboy-20250901-094629.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/admin-api.warboy-20250901-094629.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/admin-api.warboy-20250901-094629.log
 Bytes: 100  Lines: 5  Modified: 2025-09-01T14:46:34Z
 SHA256: 15be220bb0ed839d9750b81feded4549ddf66781afecfe4f181137f053a7684d   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11598,7 +11601,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-admin-api-warboy-20250901-184121-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/admin-api.warboy-20250901-184121.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/admin-api.warboy-20250901-184121.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/admin-api.warboy-20250901-184121.log
 Bytes: 100  Lines: 5  Modified: 2025-09-01T23:41:25Z
 SHA256: 7125dab77f5809d60c0f3209129592a8f53b84c5158beb3bce97d6b29d73dd45   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11613,7 +11616,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-admin-api-warboy-20250906-102058-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/admin-api.warboy-20250906-102058.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/admin-api.warboy-20250906-102058.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/admin-api.warboy-20250906-102058.log
 Bytes: 100  Lines: 5  Modified: 2025-09-06T15:21:05Z
 SHA256: 1547462d17a3250fc17496ede09716751fe34adb28896c96702264742230bc8d   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11628,7 +11631,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-admin-web-warboy-20250901-094629-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/admin-web.warboy-20250901-094629.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/admin-web.warboy-20250901-094629.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/admin-web.warboy-20250901-094629.log
 Bytes: 1429  Lines: 25  Modified: 2025-09-01T14:46:35Z
 SHA256: fca6e3c2906407806a36a078e7eb68330f6ca71ec63beb0c4309f69afd2487bc   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11643,7 +11646,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-admin-web-warboy-20250901-184121-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/admin-web.warboy-20250901-184121.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/admin-web.warboy-20250901-184121.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/admin-web.warboy-20250901-184121.log
 Bytes: 1429  Lines: 25  Modified: 2025-09-01T23:41:26Z
 SHA256: 6e36124ab6e6ca6d40f8d10d319d15f9d715f04a9bc956716573ebe0c0e5ee8c   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11658,7 +11661,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-admin-web-warboy-20250906-102058-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/admin-web.warboy-20250906-102058.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/admin-web.warboy-20250906-102058.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/admin-web.warboy-20250906-102058.log
 Bytes: 1429  Lines: 25  Modified: 2025-09-06T15:21:05Z
 SHA256: f0aab47a6a105f2ac54520f9da06be8d24a32e3e82327ddce06de11176aa6307   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11673,7 +11676,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-chat-server-warboy-20250901-094629-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/chat-server.warboy-20250901-094629.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/chat-server.warboy-20250901-094629.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/chat-server.warboy-20250901-094629.log
 Bytes: 147  Lines: 6  Modified: 2025-09-01T14:46:35Z
 SHA256: 398048d55d373ac6d9da6389ae88c6df7fdee61b9cbacb46f454e17a236355de   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11688,7 +11691,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-chat-server-warboy-20250901-184121-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/chat-server.warboy-20250901-184121.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/chat-server.warboy-20250901-184121.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/chat-server.warboy-20250901-184121.log
 Bytes: 147  Lines: 6  Modified: 2025-09-01T23:41:26Z
 SHA256: 20d5e043464f97d4b3713e4c9000b2ff876af362320ffef74826a23ed22aad8a   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11703,7 +11706,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-chat-server-warboy-20250906-102058-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/chat-server.warboy-20250906-102058.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/chat-server.warboy-20250906-102058.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/chat-server.warboy-20250906-102058.log
 Bytes: 147  Lines: 6  Modified: 2025-09-06T15:21:05Z
 SHA256: dfe7bf6e7d44d4bde5bdfd9c44329c80d38322c809641ba8df4f56576d3c1bb7   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11718,7 +11721,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-game-server-warboy-20250901-094629-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/game-server.warboy-20250901-094629.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/game-server.warboy-20250901-094629.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/game-server.warboy-20250901-094629.log
 Bytes: 96  Lines: 6  Modified: 2025-09-01T14:46:34Z
 SHA256: 0f060847c8f847475d84e1db28968f9d5238974e26d33b5374c3d3425f3339bd   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11733,7 +11736,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-game-server-warboy-20250901-184121-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/game-server.warboy-20250901-184121.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/game-server.warboy-20250901-184121.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/game-server.warboy-20250901-184121.log
 Bytes: 96  Lines: 6  Modified: 2025-09-01T23:41:26Z
 SHA256: 621362276654ebb3a3ab05e1537642e6b6c9cb294ed967ae42b9d26815687174   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11748,7 +11751,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-game-server-warboy-20250906-102058-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/game-server.warboy-20250906-102058.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/game-server.warboy-20250906-102058.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/game-server.warboy-20250906-102058.log
 Bytes: 96  Lines: 6  Modified: 2025-09-06T15:21:05Z
 SHA256: 54b9f3cfa46cf420a0320e92de5f126e1e3610bcb70a82dbbe05674f82bfed10   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11763,7 +11766,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-game-web-warboy-20250901-094629-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/game-web.warboy-20250901-094629.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/game-web.warboy-20250901-094629.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/game-web.warboy-20250901-094629.log
 Bytes: 847  Lines: 22  Modified: 2025-09-01T18:16:28Z
 SHA256: 7502ac8aea186af71da21a1ef158466aec77bd9ecec6896466d175bfcdfd67ae   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11778,7 +11781,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-game-web-warboy-20250901-184121-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/game-web.warboy-20250901-184121.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/game-web.warboy-20250901-184121.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/game-web.warboy-20250901-184121.log
 Bytes: 367  Lines: 12  Modified: 2025-09-01T23:41:26Z
 SHA256: 9e0548f7bcee55f03438b9af178e19dbcf3045dc20686e78e3aef708da9f7555   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11793,7 +11796,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-game-web-warboy-20250906-102058-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/game-web.warboy-20250906-102058.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/game-web.warboy-20250906-102058.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/game-web.warboy-20250906-102058.log
 Bytes: 284  Lines: 11  Modified: 2025-09-06T15:21:05Z
 SHA256: 9a24144fc63abdc766c3b5c6d3c5d7f94282736140c6f215706603b8a924cc4a   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11808,7 +11811,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-packages-watch-warboy-20250901-094629-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/packages-watch.warboy-20250901-094629.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/packages-watch.warboy-20250901-094629.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/packages-watch.warboy-20250901-094629.log
 Bytes: 168  Lines: 5  Modified: 2025-09-01T14:46:34Z
 SHA256: 373962b692b184a8317ed863b85c8b320e69edc27e9b85cf0dd6195301e44a84   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11823,7 +11826,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-packages-watch-warboy-20250901-184121-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/packages-watch.warboy-20250901-184121.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/packages-watch.warboy-20250901-184121.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/packages-watch.warboy-20250901-184121.log
 Bytes: 168  Lines: 5  Modified: 2025-09-01T23:41:26Z
 SHA256: 88c399398b726cf05754704056fa0a186ad1c0643b4bce827297f13f76538724   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11838,7 +11841,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-all-logs-packages-watch-warboy-20250906-102058-log"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-all/logs/packages-watch.warboy-20250906-102058.log
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-all/logs/packages-watch.warboy-20250906-102058.log
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-all/logs/packages-watch.warboy-20250906-102058.log
 Bytes: 170  Lines: 5  Modified: 2025-09-06T15:21:05Z
 SHA256: 3f6d4d59a8299c0c171e2d3f893a4c0b1f2fbd60d04011c5107265a8cd912837   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -11853,7 +11856,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-dev-tmux-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/dev-tmux.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/dev-tmux.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/dev-tmux.sh
 Bytes: 1559  Lines: 46  Modified: 2025-08-30T20:32:23Z
 SHA256: 7b49d9a509e0b1920a87558486dfb7bb43ca9b0dceeb10c73c3afbe1c5331026   Language: bash   Role: source
 Summary: 
@@ -11914,7 +11917,7 @@ tmux attach -t "$NAME"
 <a id="workflow-tools-devserver-wizard-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/devserver-wizard.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/devserver-wizard.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/devserver-wizard.sh
 Bytes: 3800  Lines: 125  Modified: 2025-08-30T19:29:00Z
 SHA256: dc2065a0c58c6435005131ae544b3473e01c50d35cc03bd777d22245b47fded8   Language: bash   Role: source
 Summary: 
@@ -12049,12 +12052,57 @@ echo "  On other devices: http://${VITE_HMR_HOST}:${VITE_PORT}/"
 ```
 ===== FILE END =====
 
+### workflow-tools/git/README.md
+
+<a id="workflow-tools-git-readme-md"></a>
+===== FILE START =====
+Path: workflow-tools/git/README.md
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/git/README.md
+Bytes: 1055  Lines: 30  Modified: 2025-09-06T17:01:33Z
+SHA256: a0ebd0e9dc5897f877669125e91e56bfed476962eec2832ee8d433aa8fa38365   Language: md   Role: source
+Summary: 
+
+-----8<----- CONTENT -----8<-----
+```md
+cat > workflow-tools/git/README.md <<'EOF'
+# Git helpers (`gitready.sh`)
+
+Deterministic commit flow for this repo.
+
+## What it does
+1. (Optional) Regenerate the project bundle (`--regen` → `npm run -s digestr:tree`)
+2. Freshness check (`npm run -s digestr:check`) unless `--no-check`
+3. Stage known files + any `--stage` paths, optionally `PROJECT_BUNDLE.md`
+4. Commit with your message
+5. Push: auto-add remote if missing (via `REMOTE_URL`) and set upstream if absent
+
+## NPM entry points
+- `npm run gitready -- [flags]`
+- `npm run gitready:commit` (opinionated default: includes `--regen`)
+
+## Flags
+- `--regen` • `--no-bundle` • `--no-check` • `--no-push`
+- `--remote NAME` • `--stage PATH` (repeatable) • `--message MSG`
+
+## Env
+`REMOTE_URL=<url>` to add remote if missing (SSH or HTTPS).
+
+## Examples
+```bash
+npm run gitready -- --regen --message "docs: modern README; chore: digestr+tree; ops: backup helpers"
+
+npm run gitready -- --no-bundle --no-push \
+  --stage workflow-tools/git/gitready.sh \
+  --message "chore(git): add gitready"
+```
+===== FILE END =====
+
 ### workflow-tools/git/gitready.sh
 
 <a id="workflow-tools-git-gitready-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/git/gitready.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/git/gitready.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/git/gitready.sh
 Bytes: 3536  Lines: 117  Modified: 2025-09-06T16:49:49Z
 SHA256: 6f09548e2f0bc9cdd7c11ebb20926ad724a82a2d7e402f334bb18c8cf05168c2   Language: bash   Role: source
 Summary: 
@@ -12186,7 +12234,7 @@ fi
 <a id="workflow-tools-proj-digestr-helpers-args-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/helpers/args.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/helpers/args.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/helpers/args.sh
 Bytes: 2525  Lines: 63  Modified: 2025-09-01T06:47:32Z
 SHA256: 12f97b8612ac2fbd3c75b9906b95bb23522907fa09d16549751ddc7010d26d06   Language: bash   Role: source
 Summary: 
@@ -12264,7 +12312,7 @@ EOF
 <a id="workflow-tools-proj-digestr-helpers-config-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/helpers/config.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/helpers/config.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/helpers/config.sh
 Bytes: 2432  Lines: 79  Modified: 2025-09-01T05:42:42Z
 SHA256: 8ba2ed15ad580f8e7e7e49ec44ca55e16645bbf109bf4f50f0e6e950647fde2d   Language: bash   Role: source
 Summary: 
@@ -12358,7 +12406,7 @@ config_init() {
 <a id="workflow-tools-proj-digestr-helpers-emit-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/helpers/emit.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/helpers/emit.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/helpers/emit.sh
 Bytes: 4888  Lines: 161  Modified: 2025-09-01T06:47:29Z
 SHA256: b50ca9a1b7ef01134704c9cbe8b6ddcd1415a95277343c33045996c24726731f   Language: bash   Role: source
 Summary: 
@@ -12534,7 +12582,7 @@ emit_tree_section() {
 <a id="workflow-tools-proj-digestr-helpers-fs-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/helpers/fs.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/helpers/fs.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/helpers/fs.sh
 Bytes: 1916  Lines: 66  Modified: 2025-09-01T04:37:01Z
 SHA256: 812f343ca7dab66b39ec6261ec2af984228753f43ed01fc2bab1c411902f3873   Language: bash   Role: source
 Summary: 
@@ -12615,7 +12663,7 @@ gather_files() {
 <a id="workflow-tools-proj-digestr-helpers-git-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/helpers/git.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/helpers/git.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/helpers/git.sh
 Bytes: 839  Lines: 28  Modified: 2025-09-01T04:29:31Z
 SHA256: 9caab8721fee589e4fd1f9e7fd3abd5050ea7130e383f353169c931bb1f5af35   Language: bash   Role: source
 Summary: 
@@ -12658,7 +12706,7 @@ _file_git_url() {
 <a id="workflow-tools-proj-digestr-helpers-lang-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/helpers/lang.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/helpers/lang.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/helpers/lang.sh
 Bytes: 3449  Lines: 90  Modified: 2025-09-01T04:54:12Z
 SHA256: e1939b11da549ce60343f92440351362c202b80b550a4a4cb7ccc1d2d8454280   Language: bash   Role: source
 Summary: 
@@ -12763,7 +12811,7 @@ _detect_lang() {
 <a id="workflow-tools-proj-digestr-helpers-log-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/helpers/log.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/helpers/log.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/helpers/log.sh
 Bytes: 157  Lines: 7  Modified: 2025-09-01T04:29:00Z
 SHA256: 4263fe6e11b82cdf63b682c1e4ffe054436b3704177d910eb2a319b2a39f42ab   Language: bash   Role: source
 Summary: 
@@ -12785,7 +12833,7 @@ log_error() { echo "[error] $*" >&2; }
 <a id="workflow-tools-proj-digestr-main-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/main.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/main.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/main.sh
 Bytes: 2507  Lines: 77  Modified: 2025-09-01T05:42:35Z
 SHA256: d17a3fe02924a6fa2e524fd70353c15f808c60afd7627f71a262235c7eca9bc6   Language: bash   Role: source
 Summary: 
@@ -12877,7 +12925,7 @@ main "$@"
 <a id="workflow-tools-proj-digestr-project-bundle-sh-bak"></a>
 ===== FILE START =====
 Path: workflow-tools/proj_digestr/project_bundle.sh.bak
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/proj_digestr/project_bundle.sh.bak
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/proj_digestr/project_bundle.sh.bak
 Bytes: 7870  Lines: 269  Modified: 2025-08-15T04:20:49Z
 SHA256: e30878fbdd3ed49a0ee55785873ef6520b338d4f85569318b76de8fdd0b4a596   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -12892,7 +12940,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-rebuild-rerun-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/rebuild-rerun.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/rebuild-rerun.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/rebuild-rerun.sh
 Bytes: 1408  Lines: 54  Modified: 2025-08-30T19:27:30Z
 SHA256: f1d1ace78c1930d27b4246921d45a0be1b5bf63b0d3535bfeec05a0a3607cbf4   Language: bash   Role: source
 Summary: 
@@ -12961,7 +13009,7 @@ wait
 <a id="workflow-tools-warboyctl-version"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/VERSION
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/VERSION
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/VERSION
 Bytes: 7  Lines: 2  Modified: 2025-09-01T18:27:05Z
 SHA256: 9ca90d4ac8fbe86d8aca4aa37a80e0f984c01df281f25f62c779e784fd155a21   Language: plain   Role: source
 Summary: Non-whitelisted type; metadata only.
@@ -12976,7 +13024,7 @@ Summary: Non-whitelisted type; metadata only.
 <a id="workflow-tools-warboyctl-routines-deadends-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/routines/deadends.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/routines/deadends.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/routines/deadends.sh
 Bytes: 10260  Lines: 285  Modified: 2025-09-01T18:22:08Z
 SHA256: 1ff7ef6954629edd6331484a78459f6dcf65f7a43a60af09117c3e43aa599360   Language: bash   Role: source
 Summary: 
@@ -13276,7 +13324,7 @@ fi
 <a id="workflow-tools-warboyctl-routines-doctor-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/routines/doctor.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/routines/doctor.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/routines/doctor.sh
 Bytes: 438  Lines: 18  Modified: 2025-09-01T23:04:02Z
 SHA256: 4896b52c9149c4ae12adbc3a18e7d81af83692840cd769fd8f85e3d550c28b67   Language: bash   Role: source
 Summary: 
@@ -13309,7 +13357,7 @@ run "TSConfig"     "$SENSORS_DIR/tsconfig.sh"
 <a id="workflow-tools-warboyctl-routines-orphans-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/routines/orphans.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/routines/orphans.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/routines/orphans.sh
 Bytes: 4634  Lines: 140  Modified: 2025-09-01T20:14:06Z
 SHA256: 60086135d631aa92d08f77f1ad6143223de8360663e128f80dfe19ee1ee9b81a   Language: bash   Role: source
 Summary: 
@@ -13464,7 +13512,7 @@ fi
 <a id="workflow-tools-warboyctl-routines-route-link-check-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/routines/route-link-check.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/routines/route-link-check.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/routines/route-link-check.sh
 Bytes: 7016  Lines: 216  Modified: 2025-09-01T20:48:51Z
 SHA256: 3ec64905590eda66d39db7e2520f21b86a7ad85b05872db2bf62bbf4dc23209b   Language: bash   Role: source
 Summary: 
@@ -13695,7 +13743,7 @@ exit 0
 <a id="workflow-tools-warboyctl-sensors-lib-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/sensors/_lib.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/sensors/_lib.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/sensors/_lib.sh
 Bytes: 766  Lines: 30  Modified: 2025-09-01T23:03:16Z
 SHA256: 90590884be242fbec0dbeaabbf2b16f55c39d97d337aa40092bf24358c235d5f   Language: bash   Role: source
 Summary: 
@@ -13740,7 +13788,7 @@ jqget() {  # jqget <file> <jq_expr> -> prints or empty
 <a id="workflow-tools-warboyctl-sensors-envvars-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/sensors/envvars.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/sensors/envvars.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/sensors/envvars.sh
 Bytes: 968  Lines: 37  Modified: 2025-09-01T23:03:38Z
 SHA256: a18170097efef9a366732c9a32ee9e92481a853872fe5fbf809cf96d30b198bb   Language: bash   Role: source
 Summary: 
@@ -13792,7 +13840,7 @@ done < <(discover_apps)
 <a id="workflow-tools-warboyctl-sensors-lockfile-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/sensors/lockfile.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/sensors/lockfile.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/sensors/lockfile.sh
 Bytes: 724  Lines: 33  Modified: 2025-09-01T23:03:45Z
 SHA256: 2506acf07b54f73f407b9d3d308e98d97e47a04f2c7700cda92fab91d9d099d9   Language: bash   Role: source
 Summary: 
@@ -13840,7 +13888,7 @@ while read -r app; do check_one "$app"; done < <(discover_apps)
 <a id="workflow-tools-warboyctl-sensors-ports-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/sensors/ports.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/sensors/ports.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/sensors/ports.sh
 Bytes: 1711  Lines: 59  Modified: 2025-09-01T23:03:26Z
 SHA256: 978edc2a52933d013fa5b77eebd118a0227342b15db8fa72cd15668d63f3ebc1   Language: bash   Role: source
 Summary: 
@@ -13914,7 +13962,7 @@ done < <(discover_apps)
 <a id="workflow-tools-warboyctl-sensors-tsconfig-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/sensors/tsconfig.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/sensors/tsconfig.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/sensors/tsconfig.sh
 Bytes: 1218  Lines: 34  Modified: 2025-09-01T23:03:53Z
 SHA256: 96916a93c29e011a5275fce8a78242a015673987a2e7cc016daca13331be7d53   Language: bash   Role: source
 Summary: 
@@ -13963,7 +14011,7 @@ done < <(git ls-files -z 'apps/**/tsconfig.json' 'packages/**/tsconfig.json' | x
 <a id="workflow-tools-warboyctl-warboyctl-sh"></a>
 ===== FILE START =====
 Path: workflow-tools/warboyctl/warboyctl.sh
-URL: https://github.com/lungbean23/warboy/blob/c1c5044d5fb463a98a0bf0a96ddc7e862411ee84/workflow-tools/warboyctl/warboyctl.sh
+URL: https://github.com/lungbean23/warboy/blob/833c92edb803d34568c8a7280a81c497bed7b51e/workflow-tools/warboyctl/warboyctl.sh
 Bytes: 1365  Lines: 60  Modified: 2025-09-01T23:04:45Z
 SHA256: d6eefad8d60ff17b607409435d2b97a992146e61ff66a74adceb97d16c67a3e6   Language: bash   Role: source
 Summary: 
@@ -14102,6 +14150,7 @@ esac
 │   │   ├── pre-commit.sample
 │   │   ├── pre-merge-commit.sample
 │   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push
 │   │   ├── pre-push.sample
 │   │   ├── pre-rebase.sample
 │   │   ├── pre-receive.sample
@@ -15136,7 +15185,8 @@ esac
 │   │   ├── bootstrap-fedora.sh
 │   │   └── dev-all.sh
 │   ├── git
-│   │   └── gitready.sh
+│   │   ├── gitready.sh
+│   │   └── README.md
 │   ├── proj_digestr
 │   │   ├── helpers
 │   │   ├── main.sh
@@ -15165,6 +15215,6 @@ esac
 ├── tsconfig.json
 └── turbo.json
 
-470 directories, 657 files
+470 directories, 659 files
 
 ```

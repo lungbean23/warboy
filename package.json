@@ -21,18 +21,20 @@
     "backup": "workflow-tools/backupr/backup.sh --wizard",
     "backup:quick": "ROOT_DIR=$(pwd) BACKUP_ROOT=\"$HOME/backups/warboy\" REPO_NAME=\"warboy\" workflow-tools/backupr/backup.sh",
     "backup:dry": "DRY_RUN=1 workflow-tools/backupr/backup.sh --wizard",
-    "digestr": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
+    "digestr": "bash --noprofile --norc -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
     "digestr:fast": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && MAX_LINES=800 HEAD_TAKE=300 TAIL_TAKE=300 ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\" -X \"**/dist,**/.turbo,**/.cache,**/node_modules/**\"'",
     "digestr:full": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && MAX_LINES=2000 HEAD_TAKE=700 TAIL_TAKE=700 ./main.sh -o \"$ROOT/PROJECT_BUNDLE.md\"'",
     "digestr:no-git": "bash -lc 'ROOT=$(pwd); cd workflow-tools/proj_digestr && ./main.sh --no-git -o \"$ROOT/PROJECT_BUNDLE.md\"'",
     "digestr:when": "stat -c '%y' PROJECT_BUNDLE.md",
     "digestr:tree": "bash --noprofile --norc -lc 'ROOT=$(pwd); npm run -s digestr && printf \"\\n# Repo Tree\\n\\n\" >> \"$ROOT/PROJECT_BUNDLE.md\" && printf '\\''```text\\n'\\'' >> \"$ROOT/PROJECT_BUNDLE.md\" && tree -L 3 -a --dirsfirst >> \"$ROOT/PROJECT_BUNDLE.md\" && printf '\\''\\n```\\n'\\'' >> \"$ROOT/PROJECT_BUNDLE.md\"'",
-    "digestr:check": "bash -lc 'B=$(stat -c %Y PROJECT_BUNDLE.md 2>/dev/null || echo 0); C=$(git log -1 --format=%ct 2>/dev/null || echo 0); if [ \"$B\" -lt \"$C\" ]; then echo \"STALE: bundle older than latest commit\"; exit 1; else echo \"FRESH: bundle is up-to-date vs latest commit\"; fi'",
+    "digestr:check": "bash --noprofile --norc -lc 'BH=$(git log -1 --format=%ct 2>/dev/null || echo 0); BB=$(git log -1 --format=%ct -- PROJECT_BUNDLE.md 2>/dev/null || echo 0); if [ \"$BB\" -eq 0 ]; then BM=$(stat -c %Y PROJECT_BUNDLE.md 2>/dev/null || echo 0); if [ \"$BM\" -lt \"$BH\" ]; then echo \"STALE: uncommitted bundle older than HEAD\"; exit 1; else echo \"FRESH: uncommitted bundle newer than or equal to HEAD\"; fi; else if [ \"$BB\" -lt \"$BH\" ]; then echo \"STALE: bundle last committed before HEAD\"; exit 1; else echo \"FRESH: bundle commit matches HEAD\"; fi; fi'",
     "bundlr": "npm run digestr",
     "bundlr:tree": "npm run digestr:tree",
     "backup:restore:latest": "LATEST=$(ls -1t $HOME/backups/warboy/warboy-*.tar.gz | head -1) && DEST=$HOME/Desktop/warboy-restore-latest && mkdir -p \"$DEST\" && tar -xzf \"$LATEST\" -C \"$DEST\" && echo Restored to: \"$DEST/$(basename \"$LATEST\" .tar.gz)\"",
     "gitready": "bash --noprofile --norc workflow-tools/git/gitready.sh",
-    "gitready:commit": "bash --noprofile --norc workflow-tools/git/gitready.sh --regen --message \"docs: modern README; chore: digestr+tree; ops: backup helpers\""
+    "gitready:commit": "bash --noprofile --norc workflow-tools/git/gitready.sh --regen --message \"docs: modern README; chore: digestr+tree; ops: backup helpers\"",
+    "backup:list": "ls -1lt $HOME/backups/warboy/ | head -20",
+    "digestr:check:debug": "bash --noprofile --norc -lc 'echo BH=$(git log -1 --format=%ct 2>/dev/null || echo 0); echo BB=$(git log -1 --format=%ct -- PROJECT_BUNDLE.md 2>/dev/null || echo 0); echo BM=$(stat -c %Y PROJECT_BUNDLE.md 2>/dev/null || echo 0)'"
   },
   "devDependencies": {
     "@types/react": "^19.1.9",
